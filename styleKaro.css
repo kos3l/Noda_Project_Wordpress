@@ -1,0 +1,9 @@
+.footerNoda .col-sm h5 {
+  color: #333399;
+}
+
+.footerNoda {
+  height: 25vh;
+  background-color: red;
+  width: 100%;
+}

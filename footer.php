@@ -1,6 +1,7 @@
-
-    <div class="row">
-        <div class="col-sm"> 
+</div>
+<div class="container-fluid px-0 mx-0">
+    <div class="row footerNoda mx-0">
+        <div class="col-sm  d-flex flex-column justify-content-center align-items-end "> 
             <h5>FIRMA</h5> 
             <p>
             Noda Byg ApS
@@ -23,7 +24,7 @@
         </div>
 
     </div>
-</div>
+    </div>
 <?php wp_footer(); ?>
 </body>
 </html>
