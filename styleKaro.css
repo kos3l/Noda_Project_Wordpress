@@ -1,3 +1,4 @@
+/*footer*/
 .footerNoda .col-sm h5 {
   color: #333399;
 }
@@ -14,4 +15,17 @@
 }
 .line-height {
   height: 20%;
+}
+
+/*index*/
+.video {
+  height: 75vh;
+  background-color: blue;
+}
+.contactBtn {
+  background-color: #333399;
+  color: #f8f8f9;
+  border: 0;
+  box-shadow: 0px 0px 15px #333399;
+  letter-spacing: 0.1rem;
 }
