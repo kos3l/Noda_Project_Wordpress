@@ -36,5 +36,5 @@
   </div>
 </nav>
 
-<div class="container">
+<div class="container-fluid">
 
