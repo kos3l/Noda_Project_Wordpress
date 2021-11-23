@@ -9,13 +9,12 @@ Version: 1
 /* 
 primary : #333399 NAVY
 secondary : #2D2C2F BLACK
-grey: 939597 GREY ONE 
+grey: 939597 
 
 */
 
 body{
- padding: 0;
- margin: 0;
+
 }
 
 /* Typography 
@@ -31,7 +30,3 @@ a{}
 */
 
 /* Nav Bar */
-
-
-/* Media query */
-

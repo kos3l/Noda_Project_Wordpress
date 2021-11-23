@@ -33,5 +33,10 @@ a{}
 /* Nav Bar */
 
 
-/* Media query */
+.navbar-collapse{
+    text-align: center;
+    background:#0E0E0E;
+    padding:0;
+}
 
+.collapse 

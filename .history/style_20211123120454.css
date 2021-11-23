@@ -15,7 +15,7 @@ grey: 939597 GREY ONE
 
 body{
  padding: 0;
- margin: 0;
+ margin: ;
 }
 
 /* Typography 
@@ -33,5 +33,8 @@ a{}
 /* Nav Bar */
 
 
-/* Media query */
-
+.navbar-collapse{
+    text-align: center;
+    background:#0E0E0E;
+    padding
+}

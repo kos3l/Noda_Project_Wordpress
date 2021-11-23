@@ -33,5 +33,13 @@ a{}
 /* Nav Bar */
 
 
-/* Media query */
+.navbar-collapse{
+   
+  
+    padding:0;
+}
 
+.collapse {
+    font-size:30px;
+    background:#0E0E0E;
+}
