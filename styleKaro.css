@@ -1,0 +1,17 @@
+.footerNoda .col-sm h5 {
+  color: #333399;
+}
+
+.footerNoda {
+  height: 25vh;
+  width: 100%;
+}
+
+.line {
+  height: 20px;
+  border-bottom: 2px solid #2d2c2f;
+  width: auto;
+}
+.line-height {
+  height: 20%;
+}

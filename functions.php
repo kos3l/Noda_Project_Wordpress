@@ -6,10 +6,9 @@ function Noda_enqueue_styles() {
     wp_enqueue_script("bootstrap-js","https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" );
     wp_enqueue_style('Nodastyle', get_stylesheet_uri());
     wp_enqueue_style("our-theme-font-awesome","https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
-
+    wp_enqueue_style("KaroStyle", get_stylesheet_directory_uri() . "/styleKaro.css");
 }
 add_action('wp_enqueue_scripts', "Noda_enqueue_styles" );
-
 
 function register_navwalker(){
 	require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
