@@ -1,3 +1,3 @@
 <?php get_header() ?>
-<h1>Hello from WP ooooga booga</h1>
+<?php the_content() ?>
 <?php get_footer() ?>
