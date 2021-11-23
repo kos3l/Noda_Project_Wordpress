@@ -32,6 +32,8 @@ a{}
 
 /* Nav Bar */
 
-
-/* Media query */
-
+.collapse {
+    text-align: center;
+    font-size:30px;
+    background:#0E0E0E;
+}

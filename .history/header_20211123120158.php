@@ -11,7 +11,7 @@
 
 
 
-<nav class="navbar navbar-expand-lg static-top ">
+<nav class="navbar navbar-expand-lg  static-top ">
   <div class="container">
     <a class="navbar-brand" href="#">
       NodaByg
@@ -35,6 +35,4 @@
     </div>
   </div>
 </nav>
-
-<div class="container">
 

@@ -10,12 +10,6 @@ function Noda_enqueue_styles() {
 }
 add_action('wp_enqueue_scripts', "Noda_enqueue_styles" );
 
-
-function register_navwalker(){
-	require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
-}
-add_action( 'after_setup_theme', 'register_navwalker' );
-
 function wpb_hook_javascript_footer() {
     ?>
     <script>
@@ -24,6 +18,11 @@ function wpb_hook_javascript_footer() {
     <?php
 }
 add_action("wp_footer","wpb_hook_javascript_footer");   
+
+function register_navwalker(){
+	require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
+}
+add_action( 'after_setup_theme', 'register_navwalker' );
 
 
 
