@@ -1,0 +1,99 @@
+/*
+Theme name: Noda
+Author: Karolina Kosinska & Tomas Simko 
+Description: A theme created for Noda company
+Version: 1
+
+*/
+
+/* 
+primary : #333399 NAVY
+secondary : #2D2C2F BLACK
+grey: 939597 GREY ONE 
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+
+:root {
+	--primary: #333399;
+	--jet-black: #2D2C2F;
+	--secondary: #939597;
+	
+}
+
+html{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+ padding: 0;
+ margin: 0;
+ font-family: 'Poppins', sans-serif ;
+}
+
+/* Just for now place holder */
+
+.banner-image {
+    background-image: url('img/banner-img.png');
+    background-size: cover;
+    max-height: 600px;
+  }
+
+/* Typography 
+
+h1{}
+
+h2{}
+
+p{}
+
+a{}
+
+*/
+
+/* Nav Bar */
+
+.navbar{
+    
+
+    height: 120px; 
+   /*  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.025); */
+  
+    
+    
+}  
+
+.bg-dark{
+    background:transparent !important;
+}
+
+ .bg-color.scrolled{ 
+        background-color:rgb(0,0,0,0.692);
+
+} 
+.navbar-brand {
+    font-size:27px;
+    line-height:1em;
+    font-weight: bold;
+    color:white;
+    
+}
+.nav-link {
+    color:white !important;
+    font-size: 20px;
+}
+
+.nav-link:hover{
+    background: var(--primary);
+    color:white;
+}
+
+
+
+
+
+/* Media query */
+
