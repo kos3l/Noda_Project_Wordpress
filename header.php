@@ -44,5 +44,5 @@
   </div>
 </nav>
 
-<div class="container-fluid">
+<div class="container-fluid px-0">
 
