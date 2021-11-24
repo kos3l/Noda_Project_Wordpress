@@ -28,4 +28,8 @@
   border: 0;
   box-shadow: 0px 0px 15px #333399;
   letter-spacing: 0.1rem;
+  max-height: 80%;
+}
+.main-body {
+  height: 20vh;
 }
