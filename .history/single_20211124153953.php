@@ -3,8 +3,7 @@
 
     <?php while(have_posts()): the_post() ?>
        <span><?php the_post(); ?></span> 
-       <span><?php the_content(); ?></span> 
-        
+        the_content();
 
     <?php endwhile; ?>
             <?php endif; ?>

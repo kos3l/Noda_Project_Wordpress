@@ -26,7 +26,7 @@
             </div>
         </div>
     </div>
-
+    <?php end
     <?php endwhile; ?>
             <?php endif; ?>
 <?php get_footer() ?>

@@ -4,13 +4,14 @@
 <?php get_header() ?>
 <?php if(have_posts()):?>
                 <?php while(have_posts()): the_post() ?>
-   
-                <div class="row video">
+    <div class="row video">
         <div
       class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center"
     >
    
- <!--    Replace with image the_post_thumbnail() -->
+     <img src=" <?php  the_post_thumbnail(); ?>" alt="" banner-image w-100 vh-100 d-flex justify-content-center align-items-center>
+     <img src=" <?php  the_post_thumbnail(); ?>" alt="" class="">
+    </div>
     </div>
     <div class="container">
         <div class="row " >
@@ -26,7 +27,6 @@
             </div>
         </div>
     </div>
-
     <?php endwhile; ?>
             <?php endif; ?>
 <?php get_footer() ?>
