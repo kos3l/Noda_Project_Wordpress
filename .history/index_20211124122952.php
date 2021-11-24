@@ -1,11 +1,6 @@
 <?php get_header() ?>
     <div class="row video">
-        <!-- <div class="col-12"></div> -->
-        <div
-      class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center"
-    >
-     
-    </div>
+        <div class="col-12"></div>
     </div>
     <div class="row px-0 mx-0 main-body" >
         <div class="col d-flex justify-content-between align-items-center px-5 pt-5">
@@ -26,7 +21,11 @@
                 Noda Byg Aps is a carpentry company that provides mid to high
                 custom carpentry work. We specialize in interior and also exterior
                 work using only the best materials and joinery techniques. 
-
+<div
+      class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center"
+    >
+     
+    </div>
 
                 Our work includes building custom furniture, windows, doors, 
                 terraces, roofs, flooring and painting.

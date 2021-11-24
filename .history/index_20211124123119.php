@@ -1,11 +1,6 @@
 <?php get_header() ?>
     <div class="row video">
         <!-- <div class="col-12"></div> -->
-        <div
-      class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center"
-    >
-     
-    </div>
     </div>
     <div class="row px-0 mx-0 main-body" >
         <div class="col d-flex justify-content-between align-items-center px-5 pt-5">
