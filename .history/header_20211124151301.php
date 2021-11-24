@@ -14,15 +14,12 @@
 <nav class="navbar navbar-expand-lg  navbar-dark bg-color fixed-top">
   <div class="container">
     <a class="navbar-brand" href="#">
-      Noda<br>Byg Aps  <!-- Have to do something like image  -->
+      NodaByg <br> Aps
       <?php
       if(function_exists('the_custom_logo')){
-        $custom_logo_id = get_theme_mod('custom_logo');
-        $logo = wp_get_attachment_image_src($custom_logo_id);
-      } 
-      
+        the_custom_logo();
+      }
       ?>
-      <img src='<?php echo $logo[0] ?>' alt="">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
