@@ -33,3 +33,8 @@
 .main-body {
   height: 20vh;
 }
+@media screen and (max-width: 600px) {
+  .main-body {
+    height: auto;
+  }
+}
