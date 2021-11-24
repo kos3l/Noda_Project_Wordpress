@@ -21,6 +21,11 @@
                 Noda Byg Aps is a carpentry company that provides mid to high
                 custom carpentry work. We specialize in interior and also exterior
                 work using only the best materials and joinery techniques. 
+<div
+      class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center"
+    >
+     
+    </div>
 
                 Our work includes building custom furniture, windows, doors, 
                 terraces, roofs, flooring and painting.

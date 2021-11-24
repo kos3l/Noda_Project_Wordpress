@@ -11,10 +11,10 @@
 
 
 
-<nav class="navbar navbar-expand-lg static-top ">
+<nav class="navbar navbar-expand-lg  navbar-dark bg-color fixed-top">
   <div class="container">
     <a class="navbar-brand" href="#">
-      NodaByg
+      NodaByg <br> Aps
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -23,11 +23,11 @@
     <?php
         wp_nav_menu( array(
             'theme_location'    => 'top-menu',
-            'depth'             => 2,
+            'depth'             => 1,
             'container'         => 'div',
             'container_class'   => 'collapse navbar-collapse',
             'container_id'      => 'navbarSupportedContent',
-            'menu_class'        => 'navbar-nav ms-auto',
+            'menu_class'        => 'navbar-nav  ms-auto',
             'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
             'walker'            => new WP_Bootstrap_Navwalker(),
         ) );

@@ -1,0 +1,119 @@
+/*
+Theme name: Noda
+Author: Karolina Kosinska & Tomas Simko 
+Description: A theme created for Noda company
+Version: 1
+
+*/
+
+/* 
+primary : #333399 NAVY
+secondary : #2D2C2F BLACK
+grey: 939597 GREY ONE 
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+
+:root {
+	--primary: #333399;
+	--jet-black: #2D2C2F;
+	--secondary: #939597;
+	
+}
+
+html{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+ padding: 0;
+ margin: 0;
+ font-family: 'Poppins', sans-serif ;
+}
+
+/* Just for now place holder */
+
+.banner-image {
+    background-image: url('img/banner-img.png');
+    background-size: cover;
+    max-height: 600px;
+    background-color:rgb(0,0,0,0.692); 
+  }
+
+/* Typography 
+
+h1{}
+
+h2{}
+
+p{}
+
+a{}
+
+*/
+
+/* Nav Bar */
+
+.navbar{
+    padding: 0 !important;
+    border-bottom: 1px solid #eee;
+    min-height: 50px;
+}  
+/* Scroll types */
+.bg-dark{
+    /* background:transparent !important; */
+    background-color:rgb(0,0,0,0.692); 
+}
+
+ .bg-color.scrolled{ 
+        background-color:rgb(0,0,0,0.692); 
+        
+} 
+
+.navbar-brand {
+    font-size:20px;
+    line-height:1em;
+    font-weight: bold;
+    color:white !important;
+    
+}
+.nav-link {
+    color:white !important;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+ .navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item .nav-link:active,
+.navbar-light .nav-item .nav-link:focus,
+.navbar-light .nav-item:hover .nav-link {
+    background: var(--primary) !important;
+    color:white !important;
+    
+}
+
+ 
+
+ /*  .navbar-light .navbar-nav > .active > a, .navbar-light .navbar-nav > .active > a:hover, .navbar-light .navbar-nav > .active > a:focus, .navbar-light .navbar-nav > li > a:hover, .navbar-light .navbar-nav > li > a:focus, .navbar-light .navbar-nav > .open > a, .navbar-light .navbar-nav > .open > a:hover, .navbar-light .navbar-nav > .open > a:focus, .navbar-light .navbar-nav  {
+    color: #fff;
+    background-color: #1fa67a;
+  
+} */
+.navbar-nav > li > a {
+    padding-top: 18px;
+    padding-bottom: 18px;
+
+} 
+
+.navbar-light .navbar-nav > li > a {
+    color: #999;
+    line-height: 30px;
+}
+/* Media query */
+
+
+
