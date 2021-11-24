@@ -30,7 +30,13 @@ Template name: Kontakt
             </div>
         </div>
     </div>
-  
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p><?php the_content();?></p>
+            </div>
+        </div>
+    </div>
 
     <hr /> <!-- need styling possibly bootstrap  -->
 
@@ -44,11 +50,8 @@ Template name: Kontakt
                 </div>
             </div>
             <div class="col-12 col-md-6">
-                <div class="contanct info">
-                <p><?php the_content();?></p>
-                </div>
-                <div class="iframe mt-5">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.008402642059!2d-117.92116288508075!3d33.81209623779504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcd7d12b3b5e6b%3A0x2ef62f8418225cfa!2sDisneyland%20Park!5e0!3m2!1sen!2sdk!4v1637773283673!5m2!1sen!2sdk" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <div class="iframe">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.008402642059!2d-117.92116288508075!3d33.81209623779504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcd7d12b3b5e6b%3A0x2ef62f8418225cfa!2sDisneyland%20Park!5e0!3m2!1sen!2sdk!4v1637773283673!5m2!1sen!2sdk" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
         </div>

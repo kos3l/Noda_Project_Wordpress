@@ -5,6 +5,9 @@
 <?php if(have_posts()):?>
                 <?php while(have_posts()): the_post() ?>
    
+                <div class="row video">
+        <div
+  
     <div class="container">
         <div class="row " >
             <div class="col-12 col-md-6 pt-5">
