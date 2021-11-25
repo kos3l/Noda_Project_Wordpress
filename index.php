@@ -29,7 +29,7 @@
             </p>
         </div>
         <div class="col-12 col-lg-6">
-            <img src="<?php the_field('home_logo') ?>" alt="">
+            <img src="<?php the_field('home_service_introduction') ?>" alt="">
         </div>
     </div>
     <div class="row main-body p-md-5 mb-5 mx-0">
@@ -60,12 +60,17 @@
     </div>
     <div class="row main-body  p-md-5 mx-0 ">
         <div class="col-12 col-lg-6">
-            <img src="" alt="">
+            <img src="<?php the_field('home_about_us_introduction') ?>" alt="">
         </div>
         <div class="col-12 col-lg-6 px-0 mx-0">
-            <h4><?php the_field("under_title")?></h4>
             <p>
-            <?php the_field("under_title")?>
+            <?php the_field("about_text_1")?>
+            </p>
+            <p>
+            <?php the_field("about_text_2")?>
+            </p>
+            <p>
+            <?php the_field("about_text_3")?>
             </p>
         </div>
     </div>
@@ -84,7 +89,7 @@
     <div class="row main-body location  p-md-5 mx-0 mb-5 ">
         <div class="col-12 col-sm-6 d-flex flex-column justify-content-center ">
             <h3>WHERE TO FIND US</h3>
-            <p><?php the_field("under_title")?>
+            <p><?php the_field("location_info")?>
             </p>
             <button class="locationBtn p-md-4 mt-4">
                 <h4 class="px-3 mb-0">CONTACT US</h4>
