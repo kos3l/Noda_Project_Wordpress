@@ -14,7 +14,7 @@ grey: 939597 GREY ONE
 
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700&display=swap");
 
 :root {
   --primary: #333399;
@@ -41,7 +41,14 @@ body {
 }
 
 /* Typography  */
-
+h1 {
+  font-weight: bold;
+}
+h2,
+h3,
+h4 {
+  font-weight: 600;
+}
 h1,
 h2,
 h3,
@@ -50,6 +57,9 @@ h5,
 h6 {
   letter-spacing: 0.1rem;
   text-shadow: 0px 0px 10px #999999;
+}
+p {
+  font-weight: 300;
 }
 
 /* Nav Bar */

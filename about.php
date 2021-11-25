@@ -56,8 +56,8 @@ Template name: About
                 </p>
             </div>
         </div>
-        <div class="col-12 col-lg-6 aboutImg">
-            <img src="" alt="">
+        <div class="col-12 col-lg-6 aboutImg d-flex align-items-center justify-content-center">
+            <img src="<?php the_field('home_logo') ?>" alt="">
         </div>
     </div>
     <div class="row under main-body mx-0 mb-5 ">

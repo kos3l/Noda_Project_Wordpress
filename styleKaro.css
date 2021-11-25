@@ -81,3 +81,6 @@
 .aboutImg {
   background-color: #333399;
 }
+.aboutImg img {
+  width: 60%;
+}

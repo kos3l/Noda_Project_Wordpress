@@ -10,7 +10,7 @@
     </div>
     </div>
     <div class="row px-0 mx-0 main-body" >
-        <div class="col d-flex justify-content-between align-items-center px-md-5 pt-5 flex-lg-row flex-column">
+        <div class="col d-flex flex-column-reverse flex-row-lg-reverse justify-content-between align-items-center px-md-5 pt-5 flex-lg-row flex-column">
             <div> 
                 <h1>DEAL IS A DEAL</h1>
                 <p >We are a trustworthy company that offer Great quality for lower prices  </p>
