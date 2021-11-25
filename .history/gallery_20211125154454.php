@@ -31,9 +31,8 @@ Template name: gallery
 
     <div class="container">
         <div class="row text-center">
-            <div class="col-12 ">
-            <?php the_content();?>
-          
+            <div class="col-12 col-md-4">
+
             </div>
         </div>
     </div>

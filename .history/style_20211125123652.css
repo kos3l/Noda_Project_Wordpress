@@ -112,24 +112,7 @@ a {
 
 /* Gallery */
 
-.ngg-simplelightbox{
-    overflow: hidden;
-}
-
-.ngg-gallery-thumbnail img {
-    width:500px;
-    -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-
-}
-
-.ngg-galleryoverview.default-view .ngg-gallery-thumbnail img:hover{
-    opacity:100%;
-    -webkit-transform: scale(1.3);
-	transform: scale(1.3);
-}
+.ngg-gallery-thumbnail
 
 
 

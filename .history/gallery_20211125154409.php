@@ -32,13 +32,14 @@ Template name: gallery
     <div class="container">
         <div class="row text-center">
             <div class="col-12 ">
-            <?php the_content();?>
-          
+    <div class="gallery">
+
+    </div>
             </div>
         </div>
     </div>
     
-   
+    <?php the_content();?>
     <?php endwhile; ?>
             <?php endif; ?>
 <?php get_footer() ?>

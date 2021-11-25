@@ -11,7 +11,7 @@ Template name: gallery
         <div
             class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center"
         >
-
+   <img src="<?" alt="">
  <!--    Replace with image the_post_thumbnail() -->
     </div>
         <div class="row " >
@@ -31,9 +31,10 @@ Template name: gallery
 
     <div class="container">
         <div class="row text-center">
-            <div class="col-12 ">
-            <?php the_content();?>
-          
+            <div class="col-12">
+    <div class="gallery">
+    <?php the_content();?>
+    </div>
             </div>
         </div>
     </div>

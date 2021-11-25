@@ -93,8 +93,9 @@
             
         </div>
         <div class="col-12">
-       
-          
+        <div>
+                <?php the_content();?>
+            </div>
         </div>
     </div>
     <div class="row main-body location  p-md-5 mx-0 mb-5 ">

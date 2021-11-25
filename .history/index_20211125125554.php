@@ -92,10 +92,7 @@
             <h2>RECENT PROJECTS</h2>
             
         </div>
-        <div class="col-12">
-       
-          
-        </div>
+        <div class="col-12"></div>
     </div>
     <div class="row main-body location  p-md-5 mx-0 mb-5 ">
         <div class="col-12 col-sm-6 d-flex flex-column justify-content-center ">

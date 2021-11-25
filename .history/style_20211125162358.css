@@ -112,9 +112,7 @@ a {
 
 /* Gallery */
 
-.ngg-simplelightbox{
-    overflow: hidden;
-}
+ngg-simplelightbox
 
 .ngg-gallery-thumbnail img {
     width:500px;

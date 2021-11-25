@@ -31,9 +31,18 @@ Template name: gallery
 
     <div class="container">
         <div class="row text-center">
-            <div class="col-12 ">
+            <div class="col-12 col-md-4">
             <?php the_content();?>
-          
+            <?php 
+            
+            $a = array(1, 2, 3, 17);
+            foreach ($a as $v) {
+             echo "Current value of \$a: $v.\n";
+}
+            
+            
+            
+            ?>
             </div>
         </div>
     </div>

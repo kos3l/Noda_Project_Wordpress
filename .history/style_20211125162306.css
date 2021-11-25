@@ -112,10 +112,6 @@ a {
 
 /* Gallery */
 
-.ngg-simplelightbox{
-    overflow: hidden;
-}
-
 .ngg-gallery-thumbnail img {
     width:500px;
     -webkit-transform: scale(1);

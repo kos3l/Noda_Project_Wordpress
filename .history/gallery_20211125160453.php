@@ -30,10 +30,10 @@ Template name: gallery
 
 
     <div class="container">
-        <div class="row text-center">
-            <div class="col-12 ">
+        <div class="row ">
+            <div class="col-12 col-md-12">
             <?php the_content();?>
-          
+           
             </div>
         </div>
     </div>
