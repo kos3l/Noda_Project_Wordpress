@@ -40,7 +40,7 @@ Template name: Kontakt
         <div class="row">
             <div class="col-12 col-md-6">
                 <div class="contact-form">
-                    <?php echo do_shortcode('[contact-form-7 id="49" title="Kontakt Form"]') ?>
+                    <?php echo do_shortcode('[contact-form-7 id="49" title="Contact form 1"]') ?>
                 </div>
             </div>
             <div class="col-12 col-md-6">
@@ -58,7 +58,32 @@ Template name: Kontakt
     <div class="container">
         <div class="row">
             <div class="col-12">
-                
+            <div class="form-row">
+<p class="col col-sm-12"><span class="required">*</span><small class="text-muted"> = required field</small></p>
+<div class="col col-sm-12 response-region">[response]</div>
+<div class="form-group col col-sm-12">
+  <label for="your-name">Name <sup class="required">*</sup></label>
+  [text* your-name id:your-name class:form-control]
+</div>
+<div class="form-group col col-sm-12 col-md-6">
+  <label for="your-email">Email <sup class="required">*</sup></label>
+  [email* your-email id:your-mail class:form-control]
+</div>
+<div class="form-group col col-sm-12 col-md-6">
+  <label for="your-phone">Phone <sup class="required">*</sup></label>
+  [tel* your-phone id:your-phone class:form-control placeholder "10 digits please: ##########"]
+</div>
+<div class="form-group col col-sm-12">
+  <label for="your-subject">Subject <sup class="required">*</sup></label>
+  [text* your-subject id:your-subject class:form-control]
+</div>
+<div class="form-group col col-sm-12">
+  <label for="your-message">Your Message <sup class="required">*</sup></label>
+  [textarea* your-message id:your-message class:form-control x3]
+</div>
+<div class="col col-sm-12 response-region">[response]</div>
+<div class="col col-sm-12">[submit id:submit-button class:btn class:btn-secondary "Send"]</div>
+</div>
             </div>
         </div>
     </div>
