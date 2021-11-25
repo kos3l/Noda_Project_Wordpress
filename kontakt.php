@@ -40,7 +40,7 @@ Template name: Kontakt
         <div class="row">
             <div class="col-12 col-md-6">
                 <div class="contact-form">
-                    <?php echo do_shortcode('[contact-form-7 id="49" title="Contact form 1"]') ?>
+                    <?php echo do_shortcode('[contact-form-7 id="48" title="Kontakt Form"]') ?>
                 </div>
             </div>
             <div class="col-12 col-md-6">
