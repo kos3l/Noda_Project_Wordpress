@@ -38,6 +38,21 @@ Template name: services
             </div>
             <div class="line pt-2"></div>
         </div>
+        <div class="col-12 col-lg-6 aboutImg collapse multi-collapse show px-5"  id="collapse1">
+            <img src="<?php the_field("service_image_1") ?>" alt="">
+        </div>
+        <div class="col-12 col-lg-6 aboutImg collapse multi-collapse"  id="collapse2">
+            <img src="<?php the_field("service_image_2") ?>" alt="" >
+        </div>
+        <div class="col-12 col-lg-6 aboutImg collapse multi-collapse"  id="collapse3">
+            <img src="<?php the_field("service_image_3") ?>" alt="">
+        </div>
+        <div class="col-12 col-lg-6 aboutImg collapse multi-collapse"  id="collapse4">
+            <img src="<?php the_field("service_image_4") ?>" alt="">
+        </div>
+        <div class="col-12 col-lg-6 aboutImg collapse multi-collapse"  id="collapse5">
+            <img src="<?php the_field("service_image_5") ?>" alt="">
+        </div>
         <div class="col-12 col-lg-6 px-0 mx-0 p-md-5 ">
             <div class="collapse multi-collapse show" id="collapse1">
                 <h5 class="abouth5 pb-2"><?php the_field("service_title_1") ?></h5>
@@ -69,11 +84,8 @@ Template name: services
                     <?php the_field("service_body_5") ?>
                 </p>
             </div>
-            
         </div>
-        <div class="col-12 col-lg-6 aboutImg">
-            <img src="" alt="">
-        </div>
+        
     </div>
    
 
