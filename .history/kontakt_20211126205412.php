@@ -35,7 +35,7 @@ Template name: Kontakt
    <div class="container info-bar">
        <div class="row text-center">
           
-           <div class="col-12 col-md-4  ">
+           <div class="col-12 col-md-4 ">
            <div class="col-wrapper">
                <div class="col-text">
                    <p class="text-center">
@@ -50,7 +50,7 @@ Template name: Kontakt
                </div>
            </div>
            
-           <div class="col-12 col-md-4  ">
+           <div class="col-12 col-md-4 ">
            <div class="col-wrapper">
                <div class="col-text">
                    <p class="text-center">
@@ -65,9 +65,9 @@ Template name: Kontakt
                </div>
            </div>
            
-           <div class="col-12 col-md-4  ">
+           <div class="col-12 col-md-4 ">
            <div class="col-wrapper">
-               <div class="col-text last-child-wrap">
+               <div class="col-text">
                    <p class="text-center">
                        <span>OFFICE LINE</span>
                    </p>
@@ -98,7 +98,7 @@ Template name: Kontakt
    <div class="container-fluid form-background mb-3">
        <div class="container pt-5">
            <div class="row form-shaddow">
-               <div class="col-12 col-md-7 col-lg-7 form-bg mb-3">
+               <div class="col-12 col-md-7 col-lg-7 form-bg">
                 <div class="form-wrapper pt-5 px-5">
                     <div class="form-title">
                         <h3>Send us a Message</h3>
@@ -139,7 +139,7 @@ Template name: Kontakt
           <input type="text" class="form-control text-area" placeholder="" id="first">
         </div>
         <div class="form-button text-center">
-        <button type="button" class="btn">SEND</button>
+        <button type="button" class="btn btn-primary">Primary</button>
         </div>
 
 
@@ -149,13 +149,13 @@ Template name: Kontakt
                     </div>
                 </div>
                </div>
-               <div class="col-12 col-md-5 col-lg-5 info-bg ">
-                        <div class="info-wrapper pt-5 px-5  mb-3">
+               <div class="col-12 col-md-5 col-lg-5 info-bg">
+                        <div class="info-wrapper pt-5 px-5 ">
                             <div class="info-title">
                                 <h3>Kontakt Information</h3>
                             </div>
                             <div class="row d-flex flex-column pt-3 info-row">
-                                <div class="col-12 col-md-12 inherit pt-md-5 ">
+                                <div class="col-12 col-md-12 inherit pt-md-5">
                                     <div class="info-sub">
                                         <div class="info-icon">
                                         <i class="fa fa-map-marker-alt"></i>

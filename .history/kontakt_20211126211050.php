@@ -35,7 +35,7 @@ Template name: Kontakt
    <div class="container info-bar">
        <div class="row text-center">
           
-           <div class="col-12 col-md-4  ">
+           <div class="col-12 col-md-4 ">
            <div class="col-wrapper">
                <div class="col-text">
                    <p class="text-center">
@@ -50,7 +50,7 @@ Template name: Kontakt
                </div>
            </div>
            
-           <div class="col-12 col-md-4  ">
+           <div class="col-12 col-md-4 ">
            <div class="col-wrapper">
                <div class="col-text">
                    <p class="text-center">
@@ -65,9 +65,9 @@ Template name: Kontakt
                </div>
            </div>
            
-           <div class="col-12 col-md-4  ">
+           <div class="col-12 col-md-4 ">
            <div class="col-wrapper">
-               <div class="col-text last-child-wrap">
+               <div class="col-text last-child">
                    <p class="text-center">
                        <span>OFFICE LINE</span>
                    </p>
