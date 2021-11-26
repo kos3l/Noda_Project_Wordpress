@@ -1,4 +1,7 @@
 <?php
+
+
+
 function Noda_enqueue_styles() {
 
     wp_enqueue_style("bootstrap","https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" );
@@ -23,8 +26,6 @@ function noda_theme_support(){
 
 }
 
-add_action( 'after_setup_theme', 'noda_theme_support' );
-
 
 function wpb_hook_javascript_footer() {
     ?>
@@ -38,19 +39,11 @@ function wpb_hook_javascript_footer() {
 add_action("wp_footer","wpb_hook_javascript_footer");   
 
 
-
 register_nav_menus(
     array(
         'top-menu' => 'Top Menu Location',
         'mobile-menu' => 'Mobile Menu Location'
     )
 )
-
-
-
-
-
-
-
 ?>
 

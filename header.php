@@ -12,7 +12,7 @@
 
 
 <nav class="navbar navbar-expand-lg  navbar-dark bg-color fixed-top">
-  <div class="container">
+  <div class="container-fluid px-5">
     <a class="navbar-brand" href="#">
       Noda<br>Byg Aps  <!-- Have to do something like image  -->
       <?php
