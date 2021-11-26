@@ -53,7 +53,7 @@ Template name: Kontakt
                <div class="col-12 col-md-7 col-lg-7 form-bg mb-3">
                 <div class="form-wrapper pt-5 px-5">
                     <div class="form-title">
-                        <h3><?php the_field("form-titel") ?></h3>
+                        <h3>Send us a Message</h3>
                     </div>
                     <div class="container pt-5">
                     <?php echo do_shortcode('[contact-form-7 id="49" title="Kontakt Form"]') ?>
@@ -68,7 +68,7 @@ Template name: Kontakt
                <div class="col-12 col-md-5 col-lg-5 info-bg ">
                         <div class="info-wrapper pt-5 px-5  mb-3">
                             <div class="info-title">
-                                <h3><?php the_field("kontakt-titel") ?></h3>
+                                <h3><?php the_field("kontakt-beskrivelse") ?></h3>
                             </div>
                             <div class="row d-flex flex-column pt-3 info-row">
                                 <div class="col-12 col-md-12 inherit pt-md-5 ">
@@ -76,7 +76,7 @@ Template name: Kontakt
                                         <div class="info-icon">
                                         <i class="fa fa-map-marker-alt"></i>
                                         </div>
-                                    <h3>+<?php the_field("adress") ?></h3>
+                                    <h3><?php the_field("kontakt-beskrivelse") ?></h3>
                                     </div>
                                    
                                 </div>
@@ -86,7 +86,7 @@ Template name: Kontakt
                                         <div class="info-icon">
                                         <i class="fa fa-phone"></i>
                                         </div>
-                                    <h3><?php the_field("telefonnummer") ?></h3>
+                                    <h3>(+45) 21 80 00 91</h3>
                                     </div>
                                    
                                 </div>
@@ -96,7 +96,7 @@ Template name: Kontakt
                                         <div class="info-icon">
                                         <i class="fa fa-envelope"></i>
                                         </div>
-                                    <h3><?php the_field("email") ?></h3>
+                                    <h3>henrik@nodabyg.dk</h3>
                                     </div>
                                     
                                 </div>

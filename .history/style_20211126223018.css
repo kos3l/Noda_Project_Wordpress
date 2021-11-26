@@ -147,7 +147,7 @@ a {
 }
 
 
-.col-text  p{
+.col-text .text-center  p{
     color: var(--primary);
     font-size: 18px;
 }

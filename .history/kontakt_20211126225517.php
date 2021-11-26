@@ -68,7 +68,7 @@ Template name: Kontakt
                <div class="col-12 col-md-5 col-lg-5 info-bg ">
                         <div class="info-wrapper pt-5 px-5  mb-3">
                             <div class="info-title">
-                                <h3><?php the_field("kontakt-titel") ?></h3>
+                                <h3><?php the_field("kontakt-beskrivelse") ?></h3>
                             </div>
                             <div class="row d-flex flex-column pt-3 info-row">
                                 <div class="col-12 col-md-12 inherit pt-md-5 ">
@@ -76,7 +76,7 @@ Template name: Kontakt
                                         <div class="info-icon">
                                         <i class="fa fa-map-marker-alt"></i>
                                         </div>
-                                    <h3>+<?php the_field("adress") ?></h3>
+                                    <h3><?php the_field("kontakt-beskrivelse") ?></h3>
                                     </div>
                                    
                                 </div>
@@ -86,7 +86,7 @@ Template name: Kontakt
                                         <div class="info-icon">
                                         <i class="fa fa-phone"></i>
                                         </div>
-                                    <h3><?php the_field("telefonnummer") ?></h3>
+                                    <h3><?php the_field("kontakt-beskrivelse") ?></h3>
                                     </div>
                                    
                                 </div>
@@ -96,7 +96,7 @@ Template name: Kontakt
                                         <div class="info-icon">
                                         <i class="fa fa-envelope"></i>
                                         </div>
-                                    <h3><?php the_field("email") ?></h3>
+                                    <h3><?php the_field("kontakt-beskrivelse") ?></h3>
                                     </div>
                                     
                                 </div>
