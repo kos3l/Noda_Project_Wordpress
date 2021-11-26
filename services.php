@@ -30,66 +30,43 @@ Template name: services
     <div class="row under main-body mx-0 mb-5 ">
         <div class="col-12 px-lg-5 mb-5">
             <div class="d-flex serviceBtns justify-content-between"> 
-                <button data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1"><h5>Service1</h5></button>
-                <button data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2"><h5>Service2</h5></button>
-                <button data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3"><h5>Service3</h5></button>
-                <button data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4"><h5>Service4</h5></button>
-                <button data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5"><h5>Service5</h5></button>
+                <button data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1"><h5><?php the_field("service_title_1") ?></h5></button>
+                <button data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2"><h5><?php the_field("service_title_2") ?></h5></button>
+                <button data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3"><h5><?php the_field("service_title_3") ?></h5></button>
+                <button data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4"><h5><?php the_field("service_title_4") ?></h5></button>
+                <button data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5"><h5><?php the_field("service_title_5") ?></h5></button>
             </div>
             <div class="line pt-2"></div>
         </div>
         <div class="col-12 col-lg-6 px-0 mx-0 p-md-5 ">
             <div class="collapse multi-collapse show" id="collapse1">
-                <h5 class="abouth5 pb-2">Who we are?</h5>
+                <h5 class="abouth5 pb-2"><?php the_field("service_title_1") ?></h5>
                 <p>
-                    Noda Byg ApS is a small private company based in Copenhagen. 
-                    Our company was founded in Year of foundation, as a decision that 
-                    we didn't want to work longer for companies that prioritize money 
-                    over quality. We have decided to establish our own high-quality 
-                    carpentry company, which will offer people various services that 
-                    you can learn more about on this site.
-
-                    Our customers are a priority for us and this is evidenced by the 
-                    number of satisfied people from Norway and Denmark. Our task 
-                    is not to leave people without the job being 100% finished.
+                <?php the_field("service_body_1") ?>
                 </p>
             </div>
             <div class="collapse multi-collapse" id="collapse2">
-                <h5 class="abouth5 pb-2">Who we are?</h5>
+                <h5 class="abouth5 pb-2"><?php the_field("service_title_2") ?></h5>
                 <p>
-                    Noda Byg ApS is a small private company based in Copenhagen. 
-                    Our company was founded in Year of foundation, as a decision that 
-                    we didn't want to work longer for companies that prioritize money 
-                    over quality. We have decided to establish our own high-quality 
-                    carpentry company, which will offer people various services that 
-                    you can learn more about on this site.
+                    <?php the_field("service_body_2") ?>
                 </p>
             </div>
             <div class="collapse multi-collapse" id="collapse3">
-                <h5 class="abouth5 pb-2">Who we are?</h5>
+                <h5 class="abouth5 pb-2"><?php the_field("service_title_3") ?></h5>
                 <p>
-                    Noda Byg ApS is a small private company based in Copenhagen. 
-                    Our company was founded in Year of foundation, as a decision that 
-                    we didn't want to work longer for companies that prioritize money 
-                    over quality. We have decided to establish our own high-quality 
-                    carpentry company,
+                    <?php the_field("service_body_3") ?>
                 </p>
             </div>
             <div class="collapse multi-collapse" id="collapse4">
-                <h5 class="abouth5 pb-2">Who we are?</h5>
+                <h5 class="abouth5 pb-2"><?php the_field("service_title_4") ?></h5>
                 <p>
-                    Noda Byg ApS is a small private company based in Copenhagen. 
-                    Our company was founded in Year of foundation, as a decision that 
-                    we didn't want to work longer for companies that prioritize money 
-                    over quality. 
+                    <?php the_field("service_body_4") ?>
                 </p>
             </div>
             <div class="collapse multi-collapse" id="collapse5">
-                <h5 class="abouth5 pb-2">Who we are?</h5>
+                <h5 class="abouth5 pb-2"><?php the_field("service_title_5") ?></h5>
                 <p>
-                    Noda Byg ApS is a small private company based in Copenhagen. 
-                    Our company was founded in Year of foundation, as a decision that 
-                    we didn't want to work longer for compani
+                    <?php the_field("service_body_5") ?>
                 </p>
             </div>
             
