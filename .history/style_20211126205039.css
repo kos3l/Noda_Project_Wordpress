@@ -1,0 +1,224 @@
+/*
+Theme name: Noda
+Author: Karolina Kosinska & Tomas Simko 
+Description: A theme created for Noda company
+Version: 1
+
+*/
+
+/* Typography */
+/* 
+primary : #333399 NAVY
+secondary : #2D2C2F BLACK
+grey: 939597 GREY ONE 
+
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+
+:root {
+  --primary: #333399;
+  --jet-black: #2d2c2f;
+  --secondary: #939597;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Just for now place holder */
+
+.banner-image {
+  background-image: url("img/kontakt.png");
+  background-size: cover;
+  max-height: 500px;
+}
+
+/* Typography  */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 0.1rem;
+  /* text-shadow: 0px 0px 10px #999999; */
+}
+
+/* Nav Bar */
+
+.navbar {
+  padding: 0 !important;
+  min-height: 50px;
+  background-color: #F0F0F0;
+}
+
+.bg-color.scrolled {
+  background-color: rgb(0, 0, 0, 0.692);
+}
+
+.navbar-brand {
+  font-size: 20px;
+  line-height: 1em;
+  font-weight: bold;
+  color: black !important;
+}
+.nav-link {
+  color: black !important;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.navbar-dark .nav-item.active .nav-link,
+.navbar-dark .nav-item .nav-link:active,
+.navbar-dark .nav-item .nav-link:focus,
+.navbar-dark .nav-item:hover .nav-link {
+  background: var(--primary) !important;
+  color: white !important;
+}
+
+.navbar-nav > li > a {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.navbar-dark .navbar-nav > li > a {
+  color: #999;
+  line-height: 30px;
+}
+
+/* Toggle button */
+.navbar-toggler {
+  border: none;
+  color: white !important;
+}
+
+.navbar-toggler:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+/* Media query */
+
+a {
+  color: #333399;
+}
+@media (max-width: 575.98px) {
+  .navbar {
+    padding-top: 0.5rem !important ;
+    padding-bottom: 0.5rem !important;
+  }
+  .navbar-collapse {
+    height: 100vh;
+    text-align: center;
+    margin-top: 13%;
+  }
+}
+
+
+/* Kontakt */
+
+.page-title h1 {
+    text-shadow: 0px 0px 10px #999999;
+    color:var(--primary);
+    font-size:3rem;
+}
+.description h2 {
+    font-size:18px;
+}
+
+.info-background{
+    background:#F8F8F9;
+    padding:2%;
+}
+
+
+.col-text .text-center  > span {
+    color: var(--primary);
+    font-size: 18px;
+}
+
+.col-title h3 {
+    font-size:22px;
+}
+
+.col-wrapper {
+ border-right: 1px solid #60616438;
+ padding: 35px 0px 30px 0px;
+}
+
+.google-map {
+    overflow: hidden;
+    height:500px;
+}
+
+#map{
+    height:400px;
+}
+
+.form-background{
+    background:#F8F8F9;
+    /* height: 600px; */
+}
+
+.form-bg{
+    background:#FFFFFF;
+    height: 500px;
+}
+.form-shaddow{
+    box-shadow:0 3px 6px grey;
+}
+
+.info-bg{
+    background:var(--primary);
+    height:500px
+}
+
+.info-title h3{
+    color:white;
+}
+.info-sub {
+    display:inherit;
+}
+.inherit{
+    display: inherit;
+}
+.info-sub > h3 {
+    color:white;
+    font-size:18px;
+
+}
+.info-icon{
+    margin-right:10%;
+  
+}
+.info-icon i {
+    font-size:1.5rem;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+}
+
+.text-area{
+    min-height: 150px;
+}
+
+.form-control  {
+    border-top: none ;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid rgba(211, 209, 209, 0.411);
+}
+.form-group label {
+    opacity:70%;
+}
+
+.form-group{
+    margin-bottom: 5%;
+}
