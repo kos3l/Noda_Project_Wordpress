@@ -89,8 +89,8 @@ Template name: Kontakt
    </div>
    <div class="container-fluid px-0">
        <div class="google-map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2285.9725967869626!2d10.667244316101504!3d55.04369605392309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x282457f564d3fa3b!2zNTXCsDAyJzM3LjMiTiAxMMKwNDAnMTAuMCJF!5e0!3m2!1sen!2sdk!4v1637916314218!5m2!1sen!2sdk" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-     
+     <!--   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.008402642059!2d-117.92116288508075!3d33.81209623779504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcd7d12b3b5e6b%3A0x2ef62f8418225cfa!2sDisneyland%20Park!5e0!3m2!1sen!2sdk!4v1637773283673!5m2!1sen!2sdk" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+#mb_parse_str
        </div>
    </div>
    
@@ -125,7 +125,16 @@ Template name: Kontakt
 
 
 
-   
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASeG29mjjvi4sGzSoDt7ezX1gtG8AbSOM&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+
+    <script>
+        function init (){
+
+        }
+    </script>
 
 
     <?php endwhile; ?>

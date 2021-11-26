@@ -130,7 +130,7 @@ a {
     font-size:3rem;
 }
 .description h2 {
-    font-size:18px;
+    font-size:
 }
 
 .info-background{
@@ -151,13 +151,4 @@ a {
 .col-wrapper {
  border-right: 1px solid #60616438;
  padding: 35px 0px 30px 0px;
-}
-
-.google-map {
-    overflow: hidden;
-    height:500px;
-}
-
-#map{
-    height:400px;
 }
