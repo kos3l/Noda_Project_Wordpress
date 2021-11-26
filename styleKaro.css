@@ -33,8 +33,13 @@
 .main-body {
   height: auto;
 }
-.main-body img {
+.main-body .homeImg img {
   width: 100%;
+  height: 100%;
+}
+.main-body .homeImg {
+  width: 50%;
+  height: 60vh;
 }
 .under {
   margin-top: 20vh;

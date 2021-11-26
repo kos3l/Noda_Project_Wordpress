@@ -28,7 +28,7 @@
             <?php the_field("service_section_body")?>
             </p>
         </div>
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-6 homeImg ">
             <img src="<?php the_field('home_service_introduction') ?>" alt="">
         </div>
     </div>
@@ -97,6 +97,7 @@
         </div>
         <div class="col-12 col-sm-6 "></div>
     </div>
+    
     <?php endwhile; ?>
             <?php endif; ?>
 <?php get_footer() ?>

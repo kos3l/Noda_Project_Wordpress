@@ -21,6 +21,10 @@ grey: 939597 GREY ONE
   --jet-black: #2d2c2f;
   --secondary: #939597;
 }
+.collapse.in {
+  min-height: 50px;
+  border: 1px solid blue;
+}
 
 html {
   padding: 0;
