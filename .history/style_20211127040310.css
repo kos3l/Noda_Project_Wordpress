@@ -220,12 +220,12 @@ a {
 
 .form-background{
     background:#F8F8F9;
-  
+    /* height: 600px; */
 }
 
 .form-bg{
     background:#FFFFFF;
-   
+    /* height: 500px; */
 }
 .form-shaddow{
     box-shadow:0 3px 6px grey;
@@ -233,7 +233,7 @@ a {
 
 .info-bg{
     background:var(--primary);
-
+   /*  height:500px */
 }
 
 .info-title h3{
@@ -346,5 +346,5 @@ a {
     font-family: "Poppins", sans-serif !important;
   }
   .collapse.in{
-      border:none !important;
+      border:none;
   }

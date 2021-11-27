@@ -220,12 +220,12 @@ a {
 
 .form-background{
     background:#F8F8F9;
-  
+    /* height: 600px; */
 }
 
 .form-bg{
     background:#FFFFFF;
-   
+    /* height: 500px; */
 }
 .form-shaddow{
     box-shadow:0 3px 6px grey;
@@ -233,7 +233,7 @@ a {
 
 .info-bg{
     background:var(--primary);
-
+   /*  height:500px */
 }
 
 .info-title h3{
@@ -340,11 +340,5 @@ a {
   /* Accordion */
 
   .ac_title_class{
-    font-family: "Poppins", sans-serif;
-  }
-  #wpsm_accordion_203 .wpsm_panel-body{
-    font-family: "Poppins", sans-serif !important;
-  }
-  .collapse.in{
-      border:none !important;
+      font-family: ;
   }

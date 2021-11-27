@@ -225,7 +225,7 @@ a {
 
 .form-bg{
     background:#FFFFFF;
-   
+    /* height: 500px; */
 }
 .form-shaddow{
     box-shadow:0 3px 6px grey;
@@ -233,7 +233,7 @@ a {
 
 .info-bg{
     background:var(--primary);
-
+   /*  height:500px */
 }
 
 .info-title h3{
