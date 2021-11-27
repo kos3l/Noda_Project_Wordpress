@@ -12,28 +12,19 @@ Template name: gallery
 <img   src="<?php the_field("galleri-header")?>" >
 
  
+  <div class="hero-title centered">
+        <h1><?php the_title(); ?></h1>
+        <div class="hero-description text-center">
+            <p><?php the_field("galleri-beskrivelse") ?>
+</hp>
+        </div>
+  </div>
     
 </section>
 
 
-<div class="container">
-    <div class="row  pt-5">
-        <div class="col-12 col-md-6">
-            <div class="page-title">
-                <h1><?php the_title(); ?></h1>
-            </div>
-        </div>
-        <div class="col-12 col-md-6">
-            <div class="page-title">
-                <p><?php the_field("galleri-beskrivelse")?></p>
-            </div>
-        </div>
-    </div>
-</div>
-
-
  <div class="container">
-        <div class="row ">
+        <div class="row p-5 ">
             <div class="col-12 ">
             <?php the_content();?>
           

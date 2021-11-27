@@ -9,18 +9,16 @@ Template name: Kontakt
 
 <?php if(have_posts()):?>
                 <?php while(have_posts()): the_post() ?>
-
-
-    <section class="hero-section position-relative text-center">
-<img   src="<?php the_field("kontakt_billere")?>" >
+ <section class="hero-section position-relative text-center">
+<img   src="<?php the_field("galleri-header")?>" >
 
  
     
 </section>
 
 
-    <div class="container  mb-5 ">
-    <div class="row-wrapper pt-3 pb-3">
+    <div class="container mt-5 mb-5 ">
+    <div class="row-wrapper pt-5 pb-5">
         <div class="row " >
             
             <div class="col-12 col-md-6  pt-5 ">

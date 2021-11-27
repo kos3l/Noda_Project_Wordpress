@@ -33,7 +33,7 @@ Template name: gallery
 
 
  <div class="container">
-        <div class="row ">
+        <div class="row p-5 ">
             <div class="col-12 ">
             <?php the_content();?>
           
