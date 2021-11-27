@@ -49,7 +49,7 @@ Template name: About
                 </p>
             </div>
             </div>
-            <div class="om-us-second-wrapper ">
+            <div class="om-us-second-wrapper">
             <div class="om-us-title">
                 <h2>Why are we different from others?</h2>
             </div>
@@ -79,17 +79,17 @@ Template name: About
 </div>
 
 
-<div class="container mt-5 mb-5">
+<div class="container mt-5">
     <div class="row">
         <div class="col-12 col-lg-6 col-md-6">
 
         <div class="om-os-image-wrapper ">
-                <img src="https://www.handyvan.com/getattachment/Our-Services/MAN-WITH-A-VAN/Man-and-Van-Delivery-Services.jpg.aspx?width=1000&height=667" width="100%" alt="">
+                <img src="https://images.unsplash.com/photo-1595844730298-b960ff98fee0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" width="100%" alt="">
                 </div>
         </div>
 
         <div class="col-12 col-lg-6 col-md-6">
-        <div class="om-us-wrapper ">
+        <div class="om-us-wrapper">
             <div class="om-us-title">
                 <h2>The boss</h2>
             </div>
@@ -108,7 +108,7 @@ Template name: About
                 </p>
             </div>
             </div>
-            <div class="om-us-second-wrapper mt-5">
+            <div class="om-us-second-wrapper">
             <div class="om-us-title">
                 <h2>The Crew</h2>
             </div>

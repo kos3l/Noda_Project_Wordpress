@@ -49,7 +49,7 @@ Template name: About
                 </p>
             </div>
             </div>
-            <div class="om-us-second-wrapper ">
+            <div class="om-us-second-wrapper mt-3">
             <div class="om-us-title">
                 <h2>Why are we different from others?</h2>
             </div>
@@ -79,7 +79,7 @@ Template name: About
 </div>
 
 
-<div class="container mt-5 mb-5">
+<div class="container mt-5">
     <div class="row">
         <div class="col-12 col-lg-6 col-md-6">
 
@@ -89,7 +89,7 @@ Template name: About
         </div>
 
         <div class="col-12 col-lg-6 col-md-6">
-        <div class="om-us-wrapper ">
+        <div class="om-us-wrapper">
             <div class="om-us-title">
                 <h2>The boss</h2>
             </div>
@@ -108,7 +108,7 @@ Template name: About
                 </p>
             </div>
             </div>
-            <div class="om-us-second-wrapper mt-5">
+            <div class="om-us-second-wrapper mt-3">
             <div class="om-us-title">
                 <h2>The Crew</h2>
             </div>

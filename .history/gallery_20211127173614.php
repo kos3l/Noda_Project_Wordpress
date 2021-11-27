@@ -33,7 +33,11 @@ Template name: gallery
 
 
 
-
+<div class="col-12 col-lg-6 col-md-6">
+                <div class="om-os-image-wrapper px-5">
+                <img src="https://images.unsplash.com/photo-1595844730298-b960ff98fee0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" width="100px" alt="">
+                </div>
+        </div>
 
  <div class="container">
         <div class="row ">

@@ -51,10 +51,7 @@ h1 {
   color:var(--primary);
   font-size:3rem;
 }
-h2{
-    font-size:1.25rem;
-    color:var(--primary);
-}
+h2,
 h3,
 h4 {
   font-weight: 600;
@@ -347,7 +344,5 @@ a {
   .collapse.in{
       border:none !important;
   }
-
-  /* Delete Later */
 
   
