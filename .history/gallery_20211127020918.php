@@ -7,9 +7,15 @@ Template name: gallery
 <?php get_header() ?>
 <?php if(have_posts()):?>
                 <?php while(have_posts()): the_post() ?>
-   
+    <!-- <div class="row video">
+        <div
+            class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center"
+        > -->
+
+ <!--    Replace with image the_post_thumbnail() -->
+   <!--  </div> -->
    <section class="hero-section position-relative text-center">
-<img   src="<?php the_field("galleri-header")?>" >
+<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/unsplash_nature6.jpg" class="card-img-top" alt="">
 
  
   <div class="hero-title centered">
@@ -29,7 +35,7 @@ Template name: gallery
 
 
  <div class="container">
-        <div class="row p-5 ">
+        <div class="row  ">
             <div class="col-12 ">
             <?php the_content();?>
           

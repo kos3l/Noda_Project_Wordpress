@@ -47,9 +47,6 @@ body {
 /* Typography  */
 h1 {
   font-weight: bold;
-  text-shadow: 0px 0px 10px #999999;
-  color:var(--primary);
-  font-size:3rem;
 }
 h2,
 h3,
@@ -288,7 +285,7 @@ a {
 }
 
 .hero-section {
-    height: 80vh;
+    height: 70vh;
   }
   
   .hero-section img{

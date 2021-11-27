@@ -7,15 +7,26 @@ Template name: gallery
 <?php get_header() ?>
 <?php if(have_posts()):?>
                 <?php while(have_posts()): the_post() ?>
-   
-   <section class="hero-section position-relative text-center">
-<img   src="<?php the_field("galleri-header")?>" >
+    <!-- <div class="row video">
+        <div
+            class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center"
+        > -->
 
- 
+ <!--    Replace with image the_post_thumbnail() -->
+   <!--  </div> -->
+   <section class="hero-section position-relative text-center">
+<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/unsplash_nature6.jpg" class="card-img-top" alt="">
+
+  <!-- <div class="overlay position-absolute d-flex align-items-center justify-content-center font-weight-bold text-white h2 mb-0">
+    <blockquote class="p-4 mb-0">
+      <p>By discovering nature, you discover yourself. </p>
+      <footer class="blockquote-footer text-white text-right">Maxime Lagacé</footer>
+    </blockquote>
+  </div> -->
   <div class="hero-title centered">
         <h1><?php the_title(); ?></h1>
         <div class="hero-description text-center">
-            <p><?php the_field("galleri-beskrivelse") ?>
+            <p>Do you want us to work for you? Do you have idea in your head and you need somebody´
 </hp>
         </div>
   </div>
@@ -29,7 +40,7 @@ Template name: gallery
 
 
  <div class="container">
-        <div class="row p-5 ">
+        <div class="row text-center ">
             <div class="col-12 ">
             <?php the_content();?>
           

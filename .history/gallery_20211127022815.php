@@ -8,6 +8,8 @@ Template name: gallery
 <?php if(have_posts()):?>
                 <?php while(have_posts()): the_post() ?>
    
+
+   <!-- https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/unsplash_nature6.jpg -->
    <section class="hero-section position-relative text-center">
 <img   src="<?php the_field("galleri-header")?>" >
 
