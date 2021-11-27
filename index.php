@@ -22,7 +22,7 @@
         </div>
     </div>
     <div class="row under main-body  p-md-5 mx-0 ">
-        <div class="col-12 col-lg-6 px-0 mx-0">
+        <div class="col-12 col-lg-6 pe-5 mx-0">
             <h4>SERVICES</h4>
             <p>
             <?php the_field("service_section_body")?>
@@ -59,10 +59,10 @@
         </div>
     </div>
     <div class="row main-body  p-md-5 mx-0 ">
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-6 homeImg">
             <img src="<?php the_field('home_about_us_introduction') ?>" alt="">
         </div>
-        <div class="col-12 col-lg-6 px-0 mx-0">
+        <div class="col-12 col-lg-6 px-0 mx-0 ps-5 d-flex flex-column justify-content-around">
             <p>
             <?php the_field("about_text_1")?>
             </p>
@@ -74,7 +74,7 @@
             </p>
         </div>
     </div>
-    <div class="row main-body testimonials  p-md-5 mx-0 ">
+    <div class="row main-body testimonials  p-md-5 mx-0 mt-5">
         <div class="col-12 d-flex justify-content-center">
             <h2>TESTIMONIALS</h2>
         </div>
