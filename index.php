@@ -15,7 +15,7 @@
                 <h1>DEAL IS A DEAL</h1>
                 <p ><?php the_field("under_title")?> </p>
             </div>
-            <h5 class="d-flex align-items-center"><span style="font-size: 1.4em; color: #333399; padding-right:1rem; text-shadow: 0px 0px 15px #939597"><i class="fas fa-phone"></i></span> <?php the_field("phone_number")?></h5>
+            <h5 class="d-flex align-items-center"><span style="font-size: 1.4em; color: #333399; padding-right:1rem; "><i class="fas fa-phone"></i></span> <?php the_field("phone_number")?></h5>
             <button class="contactBtn p-md-4">
                 <h4 class="px-3 mb-0">CONTACT US</h4>
             </button>
@@ -64,15 +64,15 @@
         </div>
         <div class="col-12 col-lg-6 px-0 mx-0 ps-5 d-flex flex-column justify-content-around">
             <p class=" d-flex align-items-center">
-                <span style="font-size: 3em; color: #333399; padding-right:2rem; text-shadow: 0px 0px 15px #939597"> <i class="far fa-smile"></i> </span>
+                <span style="font-size: 3em; color: #333399; padding-right:2rem; "> <i class="far fa-smile"></i> </span>
                 <?php the_field("about_text_1")?>
             </p>
             <p class=" d-flex align-items-center">
-                <span style="font-size: 3em; color: #333399;padding-right:2rem;text-shadow: 0px 0px 15px #939597"><i class="fas fa-hammer"></i></span> 
+                <span style="font-size: 3em; color: #333399;padding-right:2rem;"><i class="fas fa-hammer"></i></span> 
                 <?php the_field("about_text_2")?>
             </p>
             <p class=" d-flex align-items-center">
-                <span style="font-size: 3em; color: #333399;padding-right:2rem;text-shadow: 0px 0px 15px #939597"><i class="fas fa-truck-moving"></i></span> 
+                <span style="font-size: 3em; color: #333399;padding-right:2rem;"><i class="fas fa-truck-moving"></i></span> 
                 <?php the_field("about_text_3")?>
             </p>
         </div>
@@ -93,8 +93,8 @@
           
         </div>
     </div>
-    <div class="row main-body location  p-md-5 mx-0 mb-5 ">
-        <div class="col-12 col-sm-6 d-flex flex-column justify-content-center ">
+    <div class="row main-body location   mx-0 mb-5 ">
+        <div class="col-12 col-sm-6 p-md-5 d-flex flex-column justify-content-center ">
             <h3>WHERE TO FIND US</h3>
             <p><?php the_field("location_info")?>
             </p>
@@ -102,7 +102,11 @@
                 <h4 class="px-3 mb-0">CONTACT US</h4>
             </button>
         </div>
-        <div class="col-12 col-sm-6 "></div>
+        <div class="col-12 col-sm-6 px-0">
+            <div class="google-map-home">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2285.9725967869626!2d10.667244316101504!3d55.04369605392309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x282457f564d3fa3b!2zNTXCsDAyJzM3LjMiTiAxMMKwNDAnMTAuMCJF!5e0!3m2!1sen!2sdk!4v1637916314218!5m2!1sen!2sdk" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
     </div>
     
     <?php endwhile; ?>
