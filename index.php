@@ -15,14 +15,14 @@
                 <h1>DEAL IS A DEAL</h1>
                 <p ><?php the_field("under_title")?> </p>
             </div>
-            <h5><?php the_field("phone_number")?></h5>
+            <h5 class="d-flex align-items-center"><span style="font-size: 1.4em; color: #333399; padding-right:1rem; text-shadow: 0px 0px 15px #939597"><i class="fas fa-phone"></i></span> <?php the_field("phone_number")?></h5>
             <button class="contactBtn p-md-4">
                 <h4 class="px-3 mb-0">CONTACT US</h4>
             </button>
         </div>
     </div>
     <div class="row under main-body  p-md-5 mx-0 ">
-        <div class="col-12 col-lg-6 pe-5 mx-0">
+        <div class="col-12 col-lg-6 pe-5 mx-0 d-flex flex-column justify-content-center">
             <h4>SERVICES</h4>
             <p>
             <?php the_field("service_section_body")?>
@@ -32,7 +32,7 @@
             <img src="<?php the_field('home_service_introduction') ?>" alt="">
         </div>
     </div>
-    <div class="row main-body p-md-5 mb-5 mx-0">
+    <div class="row main-body p-md-5 mx-0">
         <div class="col-sm-12 px-0 line-height">
             <div class="line"></div>
         </div>
@@ -63,14 +63,17 @@
             <img src="<?php the_field('home_about_us_introduction') ?>" alt="">
         </div>
         <div class="col-12 col-lg-6 px-0 mx-0 ps-5 d-flex flex-column justify-content-around">
-            <p>
-            <?php the_field("about_text_1")?>
+            <p class=" d-flex align-items-center">
+                <span style="font-size: 3em; color: #333399; padding-right:2rem; text-shadow: 0px 0px 15px #939597"> <i class="far fa-smile"></i> </span>
+                <?php the_field("about_text_1")?>
             </p>
-            <p>
-            <?php the_field("about_text_2")?>
+            <p class=" d-flex align-items-center">
+                <span style="font-size: 3em; color: #333399;padding-right:2rem;text-shadow: 0px 0px 15px #939597"><i class="fas fa-hammer"></i></span> 
+                <?php the_field("about_text_2")?>
             </p>
-            <p>
-            <?php the_field("about_text_3")?>
+            <p class=" d-flex align-items-center">
+                <span style="font-size: 3em; color: #333399;padding-right:2rem;text-shadow: 0px 0px 15px #939597"><i class="fas fa-truck-moving"></i></span> 
+                <?php the_field("about_text_3")?>
             </p>
         </div>
     </div>
