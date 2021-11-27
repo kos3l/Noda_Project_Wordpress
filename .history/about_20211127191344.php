@@ -59,11 +59,11 @@ Template name: About
 </div>
 
 
-<div class="container  mb-5">
+<div class="container mt-2 mb-5">
     <div class="row">
         <div class="col-12 col-lg-6 col-md-6">
 
-        <div class="om-os-image-wrapper mt-5 ">
+        <div class="om-os-image-wrapper ">
                 <img src="https://www.handyvan.com/getattachment/Our-Services/MAN-WITH-A-VAN/Man-and-Van-Delivery-Services.jpg.aspx?width=1000&height=667" width="100%" alt="">
                 </div>
         </div>

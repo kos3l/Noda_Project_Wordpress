@@ -44,7 +44,9 @@ Template name: services
         </div>
     </div>
 
-   
+    <div class="container-fluid info-background">
+        .con
+    </div>
    
     <?php endwhile; ?>
             <?php endif; ?>

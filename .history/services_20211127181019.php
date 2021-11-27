@@ -43,8 +43,6 @@ Template name: services
             </div>
         </div>
     </div>
-
-   
    
     <?php endwhile; ?>
             <?php endif; ?>

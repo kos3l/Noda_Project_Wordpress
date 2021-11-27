@@ -23,7 +23,7 @@ Template name: services
                 <h1><?php the_title(); ?></h1>
             </div>
         </div>
-        <div class="col-12 col-md-6 d-flex justify-content-md-end">
+        <div class="col-12 col-md-6 d-flex justify-content-end">
             <div class="page-title">
                 <p><?php the_content(); ?></p>
             </div>
@@ -43,8 +43,6 @@ Template name: services
             </div>
         </div>
     </div>
-
-   
    
     <?php endwhile; ?>
             <?php endif; ?>

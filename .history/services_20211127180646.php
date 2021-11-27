@@ -23,7 +23,7 @@ Template name: services
                 <h1><?php the_title(); ?></h1>
             </div>
         </div>
-        <div class="col-12 col-md-6 d-flex justify-content-md-end">
+        <div class="col-12 col-md-6 d-flex justify-content-end">
             <div class="page-title">
                 <p><?php the_content(); ?></p>
             </div>
@@ -33,18 +33,16 @@ Template name: services
 
     <div class="container mb-5">
         <div class="row">
-            <div class="col-12 col-md-6 mt-5">
+            <div class="col-12 col-md-6">
             <?php echo do_shortcode('[WPSM_AC id=203]') ?>
             </div>
-            <div class="col-12 col-md-6 mt-4 d-flex justify-content-center align-items-center">
+            <div class="col-12 col-md-6 mt-5 d-flex justify-content-center align-items-center">
                 <div class="video-wrapper">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/y8W7KbJTg7A?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
     </div>
-
-   
    
     <?php endwhile; ?>
             <?php endif; ?>

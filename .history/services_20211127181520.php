@@ -44,7 +44,11 @@ Template name: services
         </div>
     </div>
 
-   
+    <div class="container-fluid info-background">
+        <div class="container info-bar">
+            <div class="row text-center"></div>
+        </div>
+    </div>
    
     <?php endwhile; ?>
             <?php endif; ?>

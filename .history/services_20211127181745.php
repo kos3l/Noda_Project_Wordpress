@@ -25,7 +25,7 @@ Template name: services
         </div>
         <div class="col-12 col-md-6 d-flex justify-content-md-end">
             <div class="page-title">
-                <p><?php the_content(); ?></p>
+                <p>Text For now</p>
             </div>
         </div>
     </div>
@@ -44,7 +44,13 @@ Template name: services
         </div>
     </div>
 
-   
+    <div class="container-fluid info-background">
+        <div class="container info-bar">
+            <div class="row text-center">
+            <h1>text</h1>
+            </div>
+        </div>
+    </div>
    
     <?php endwhile; ?>
             <?php endif; ?>

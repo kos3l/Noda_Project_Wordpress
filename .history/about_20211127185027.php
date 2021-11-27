@@ -27,8 +27,43 @@ Template name: About
 </div>
 
 
-
 <div class="container mt-5">
+    <div class="row">
+        <div class="col-12 col-lg-6 col-md-6">
+            <div class="om-us-wrapper">
+            <div class="om-us-title">
+                <h2><?php the_field("primær_titel"); ?></h2>
+            </div>
+            <div class="om-us-paragraph">
+                <p>
+                <?php the_field("primaer_beskrivelse"); ?>
+                </p>
+            </div>
+            </div>
+            <div class="om-us-second-wrapper ">
+            <div class="om-us-title">
+                <h2><?php the_field("sekundær_titel"); ?></h2>
+            </div>
+            <div class="om-us-paragraph">
+                <p>
+                <?php the_field("sekundaer_beskrivelse"); ?>
+                </p>
+            </div>
+            </div>
+            </div>
+            
+            <div class="col-12 col-lg-6 col-md-6  d-flex justify-content-center align-items-center ">
+                <div class="om-os-image-wrapper ">
+                <img src="https://images.unsplash.com/photo-1595844730298-b960ff98fee0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" width="100%" alt="">
+                </div>
+        </div>
+        </div>
+       
+      
+    </div>
+</div>
+
+<div class="container">
     <div class="row">
         <div class="col-12 col-md-6 col-lg-6">
             <div class="om-us-wrapper">
@@ -36,17 +71,7 @@ Template name: About
                 <h2><?php the_field("primær_titel"); ?></h2>
                 </div>
                 <div class="om-us-paragraph">
-                <p><?php the_field("primaer_beskrivelse"); ?></p>
-                </div>
-            </div>
-            <div class="om-us-second-wrapper">
-                <div class="om-os-title">
-                <h2><?php the_field("sekundær_titel"); ?></h2>
-                </div>
-                <div class="om-os-paragraph">
-                <p>
-                <?php the_field("sekundaer_beskrivelse"); ?>
-                </p>
+                <?php the_field("primaer_beskrivelse"); ?>
                 </div>
             </div>
         </div>
@@ -59,11 +84,11 @@ Template name: About
 </div>
 
 
-<div class="container  mb-5">
+<div class="container mt-5 mb-5">
     <div class="row">
         <div class="col-12 col-lg-6 col-md-6">
 
-        <div class="om-os-image-wrapper mt-5 ">
+        <div class="om-os-image-wrapper ">
                 <img src="https://www.handyvan.com/getattachment/Our-Services/MAN-WITH-A-VAN/Man-and-Van-Delivery-Services.jpg.aspx?width=1000&height=667" width="100%" alt="">
                 </div>
         </div>
