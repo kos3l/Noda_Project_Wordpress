@@ -3,13 +3,9 @@
 Template name: Kontakt
 */
 ?>
-
-
 <?php get_header() ?>
-
 <?php if(have_posts()):?>
                 <?php while(have_posts()): the_post() ?>
-
     <div class="container mt-5 mb-5 ">
     <div class="row-wrapper pt-5 pb-5">
         <div class="row " >
@@ -28,10 +24,7 @@ Template name: Kontakt
         </div>
         </div>
     </div>
-  
 <div class="container-fluid info-background ">
-
-
    <div class="container info-bar">
        <div class="row text-center">
              <?php the_content() ?>
@@ -44,22 +37,16 @@ Template name: Kontakt
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2285.9725967869626!2d10.667244316101504!3d55.04369605392309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x282457f564d3fa3b!2zNTXCsDAyJzM3LjMiTiAxMMKwNDAnMTAuMCJF!5e0!3m2!1sen!2sdk!4v1637916314218!5m2!1sen!2sdk" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
        </div>
    </div>
-   
-
    <div class="container-fluid form-background mb-3">
        <div class="container pt-5">
            <div class="row form-shaddow">
                <div class="col-12 col-md-7 col-lg-7 form-bg mb-3">
-                <div class="form-wrapper pt-5 px-5">
-                    <div class="form-title">
-                        <h3><?php the_field("form-titel") ?></h3>
-                    </div>
-                    <div class="container pt-5">
-                    <?php echo do_shortcode('[contact-form-7 id="49" title="Kontakt Form"]') ?>
-                   
-
-
-                            
+                    <div class="form-wrapper pt-5 px-5">
+                        <div class="form-title">
+                            <h3><?php the_field("form-titel") ?></h3>
+                        </div>
+                        <div class="container pt-5">
+                            <?php echo do_shortcode('[contact-form-7 id="49" title="Kontakt Form"]') ?>
                         </div>
                     </div>
                 </div>
@@ -105,15 +92,6 @@ Template name: Kontakt
            </div>
        </div>
    </div>
-
-
- 
-
-
-
-   
-
-
     <?php endwhile; ?>
             <?php endif; ?>
 <?php get_footer() ?>
