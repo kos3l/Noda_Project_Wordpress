@@ -59,7 +59,7 @@
         </div>
     </div>
     <div class="row main-body  p-md-5 mx-0 ">
-        <div class="col-12 col-lg-6 homeImg">
+        <div class="col-12 col-lg-6 pe-5 homeImg">
             <img src="<?php the_field('home_about_us_introduction') ?>" alt="">
         </div>
         <div class="col-12 col-lg-6 px-0 mx-0 ps-5 d-flex flex-column justify-content-around">
