@@ -14,7 +14,7 @@ Template name: About
 </section>
 
 <div class="container">
-    <div class="row  pt-5 block-padding">
+    <div class="row  pt-5">
         <div class="col-12 col-md-6">
             <div class="page-title">
                 <h1><?php the_title(); ?></h1>
@@ -31,8 +31,8 @@ Template name: About
 
 
 <div class="container mt-5">
-    <div class="row block-padding">
-        <div class="col-12 col-md-6 col-lg-6 ">
+    <div class="row ">
+        <div class="col-12 col-md-6 col-lg-6 block-padding">
             <div class="om-us-wrapper">
                 <div class="om-us-title">
                 <h2><?php the_field("primær_titel"); ?></h2>
@@ -62,15 +62,15 @@ Template name: About
 
 
 <div class="container  mb-5">
-    <div class="row block-padding">
-        <div class="col-12 col-lg-6 col-md-6 ">
+    <div class="row">
+        <div class="col-12 col-lg-6 col-md-6">
 
         <div class="om-os-image-wrapper mt-5 ">
                 <img src="https://www.handyvan.com/getattachment/Our-Services/MAN-WITH-A-VAN/Man-and-Van-Delivery-Services.jpg.aspx?width=1000&height=667" width="100%" alt="">
                 </div>
         </div>
 
-        <div class="col-12 col-lg-6 col-md-6 mt-5">
+        <div class="col-12 col-lg-6 col-md-6">
         <div class="om-us-wrapper ">
             <div class="om-us-title">
                 <h2><?php the_field("dit_navn_title"); ?></h2>

@@ -6,25 +6,28 @@
             </div>
         <div class="col-sm d-flex flex-column justify-content-center align-items-start align-items-lg-end "> 
             <div>            
-                <h3 class="pb-2"><?php the_field("footer_titel_1") ?></h3> 
+                <h5 class="pb-2">FIRMA</h5> 
                 <p>
-                <?php the_field("footer_body_1") ?>
+                Noda Byg ApS
+                CVR: 232342342
                 </p>
             </div>
         </div>
         <div class="col-sm  d-flex flex-column justify-content-center align-items-start align-items-lg-center ">
             <div>            
-                <h3 class="pb-2"><?php the_field("footer_titel_2") ?></h3> 
+                <h5 class="pb-2">FIRMA</h5> 
                 <p>
-                <?php the_field("footer_body_2") ?>
+                Noda Byg ApS
+                CVR: 232342342
                 </p>
             </div>
         </div>
         <div class="col-sm  d-flex flex-column justify-content-center align-items-start ">
             <div>            
-                <h3 class="pb-2"><?php the_field("footer_titel_3") ?></h3> 
+                <h5 class="pb-2">FIRMA</h5> 
                 <p>
-                <?php the_field("footer_body_3") ?>
+                Noda Byg ApS
+                CVR: 232342342
                 </p>
             </div>
         </div>

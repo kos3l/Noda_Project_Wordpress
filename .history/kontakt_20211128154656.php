@@ -95,7 +95,7 @@ Template name: Kontakt
                                         <div class="info-icon">
                                         <i class="fa fa-phone"></i>
                                         </div>
-                                    <h3>+<?php the_field("telefonnummer") ?></h3>
+                                    <h3>+ <?php the_field("telefonnummer") ?></h3>
                                     </div>
                                    
                                 </div>

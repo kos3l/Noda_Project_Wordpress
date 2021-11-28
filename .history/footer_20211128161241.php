@@ -24,7 +24,8 @@
             <div>            
                 <h3 class="pb-2"><?php the_field("footer_titel_3") ?></h3> 
                 <p>
-                <?php the_field("footer_body_3") ?>
+                Noda Byg ApS
+                CVR: 232342342
                 </p>
             </div>
         </div>

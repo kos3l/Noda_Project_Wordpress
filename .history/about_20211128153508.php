@@ -62,7 +62,7 @@ Template name: About
 
 
 <div class="container  mb-5">
-    <div class="row block-padding">
+    <div class="row">
         <div class="col-12 col-lg-6 col-md-6 ">
 
         <div class="om-os-image-wrapper mt-5 ">
@@ -70,7 +70,7 @@ Template name: About
                 </div>
         </div>
 
-        <div class="col-12 col-lg-6 col-md-6 mt-5">
+        <div class="col-12 col-lg-6 col-md-6">
         <div class="om-us-wrapper ">
             <div class="om-us-title">
                 <h2><?php the_field("dit_navn_title"); ?></h2>

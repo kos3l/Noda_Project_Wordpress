@@ -24,7 +24,7 @@
             <div>            
                 <h3 class="pb-2"><?php the_field("footer_titel_3") ?></h3> 
                 <p>
-                <?php the_field("footer_body_3") ?>
+                <?php the_field("footer_body_2") ?>
                 </p>
             </div>
         </div>

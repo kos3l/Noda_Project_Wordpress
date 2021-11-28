@@ -85,7 +85,7 @@ Template name: Kontakt
                                         <div class="info-icon">
                                         <i class="fa fa-map-marker-alt"></i>
                                         </div>
-                                    <h3><?php the_field("adress") ?></h3>
+                                    <h3>+<?php the_field("adress") ?></h3>
                                     </div>
                                    
                                 </div>
@@ -95,7 +95,7 @@ Template name: Kontakt
                                         <div class="info-icon">
                                         <i class="fa fa-phone"></i>
                                         </div>
-                                    <h3>+<?php the_field("telefonnummer") ?></h3>
+                                    <h3><?php the_field("telefonnummer") ?></h3>
                                     </div>
                                    
                                 </div>

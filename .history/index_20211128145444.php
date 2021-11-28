@@ -17,7 +17,7 @@
      <div class="row">
          <div class="col-12 col-md-6 col-lg-6">
              <div class="main title">
-                 <h1>EN AFTALE ER EN AFTALE</h1>
+                 <h1>EN AFTALE ER EN</h1>
              </div>
              <div class="main-title-description">
                  <p>Great quality for lower prices </p>

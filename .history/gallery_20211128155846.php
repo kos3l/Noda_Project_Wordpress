@@ -17,7 +17,7 @@ Template name: gallery
 
 
 <div class="container">
-    <div class="row  pt-5 block-padding">
+    <div class="row  pt-5">
         <div class="col-12 col-md-6">
             <div class="page-title">
                 <h1><?php the_title(); ?></h1>
@@ -36,7 +36,7 @@ Template name: gallery
 
 
  <div class="container">
-        <div class="row ">
+        <div class="row block-padding">
             <div class="col-12 ">
             <?php the_content();?>
           

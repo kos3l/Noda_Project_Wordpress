@@ -456,19 +456,10 @@ a {
    }
 
    @media (min-width: 992px) {
-    .video-wrapper iframe{
+    iframe{
         width: 560px;
     }
     
-}
-
-/* Form Valid */ 
-
-.wpcf7-not-valid-tip{
-    font-size: 15px  !important;
-}
-.wpcf7-response-output{
-    text-align: center;
 }
     
 

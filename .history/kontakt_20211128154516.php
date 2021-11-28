@@ -61,7 +61,7 @@ Template name: Kontakt
            <div class="row form-shaddow">
                <div class="col-12 col-md-7 col-lg-7 form-bg mb-3">
                 <div class="form-wrapper pt-5 px-2">
-                    <div class="form-title px-3">
+                    <div class="form-title ">
                         <h3><?php the_field("form-titel") ?></h3>
                     </div>
                     <div class="container pt-5">
@@ -85,7 +85,7 @@ Template name: Kontakt
                                         <div class="info-icon">
                                         <i class="fa fa-map-marker-alt"></i>
                                         </div>
-                                    <h3><?php the_field("adress") ?></h3>
+                                    <h3>+<?php the_field("adress") ?></h3>
                                     </div>
                                    
                                 </div>
@@ -95,7 +95,7 @@ Template name: Kontakt
                                         <div class="info-icon">
                                         <i class="fa fa-phone"></i>
                                         </div>
-                                    <h3>+<?php the_field("telefonnummer") ?></h3>
+                                    <h3><?php the_field("telefonnummer") ?></h3>
                                     </div>
                                    
                                 </div>

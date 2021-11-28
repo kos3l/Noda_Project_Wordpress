@@ -154,7 +154,6 @@
             <h2>TESTIMONIALS</h2>
         </div>
         <div class="col-12">
-        <?php echo do_shortcode('[sp_testimonial id="273"]'); ?>
         </div>
     </div>
 

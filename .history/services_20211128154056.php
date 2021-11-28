@@ -38,7 +38,7 @@ Template name: services
             </div>
             <div class="col-12 col-md-6 mt-4 d-flex justify-content-center align-items-center">
                 <div class="video-wrapper">
-                <iframe  width="360" height="315" src="https://www.youtube.com/embed/y8W7KbJTg7A?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="service-video" width="360" height="315" src="https://www.youtube.com/embed/y8W7KbJTg7A?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
