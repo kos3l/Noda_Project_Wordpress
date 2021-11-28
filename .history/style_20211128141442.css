@@ -390,14 +390,7 @@ a {
 
    /* Landing page container */
 
-  .icon-phone{
-      color:var(--primary);
-      font-size: 2rem;
-  }
-  .phone-number h2{
-      color:var(--jet-black);
-      font-weight: bold;
-  }
+  
 
   /* Media Query */
 
@@ -416,18 +409,6 @@ a {
         line-height: 1em;
         font-weight: bold;
         color: black !important;
-      }
-      .line{
-          max-width: 100% !important;
-      }
-      .icon-phone{
-        margin-right: 4%;
-      }
-      .row-class{
-          justify-content: start !important;
-      }
-      .button-wrapper{
-          margin-top:3%;
       }
 
    }

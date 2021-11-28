@@ -25,18 +25,15 @@
          </div>
          <div class="col-12 col-md-6 col-lg-6">
            <div class="row">
-               <div class="col-12 col-md-6 d-flex justify-content-evenly align-items-center row-class">
-                   <div class="icon-phone" >
-                   <i class="fa fa-phone"></i>
-                   </div>
-                   <div class="phone-number no-gutters">
-                       <h2>40 40 40 40 </h2>
+               <div class="col-6 d-flex justify-content-center align-items-center">
+                   <div class="test no-gutters">
+                       <h5>40 40 40 40 </h5>
                    </div>
                </div>
                <div class="col-12 col-md-6 col-lg-6">
                <div class="button-wrapper">
                         <button class="contactBtn p-4">
-                            <h2 class="px-3 mb-0">CONTACT US</h2>
+                            <h4 class="px-3 mb-0">CONTACT US</h4>
                         </button>
                      </div>
                </div>
@@ -86,7 +83,7 @@
             </div>
            
         </div>
-        <div class="col-12 col-md-6 col-lg-6 mt-3">
+        <div class="col-12 col-md-6 col-lg-6 ">
         <div class="service-main-image-wrapper text-center ">
                 <img src="https://images.unsplash.com/photo-1595844730298-b960ff98fee0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" width="100%" alt="">
                 </div>
@@ -98,24 +95,24 @@
 
 
 <div class="container mt-5">
-<div class="row main-body  pt-5 pb-5 mx-0 ">
+<div class="row main-body  p-md-5 mx-0 ">
     <div class="main-title text-center">
         <h2>Quality First !</h2>
     </div>
         <div class="col-12 col-lg-6 mb-5 mt-5">
         <img src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHdvcmtlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" width="100%" alt="">
         </div>
-        <div class="col-12 col-lg-6 px-0 mx-0 ps-5 d-flex flex-column justify-content-evenly">
+        <div class="col-12 col-lg-6 px-0 mx-0 ps-5 d-flex flex-column justify-content-around">
             <p class=" d-flex align-items-center">
-                <span style="font-size: 2.5em; color: #333399; padding-right:2rem; "> <i class="fas fa-toolbox"></i> </span>
+                <span style="font-size: 3em; color: #333399; padding-right:2rem; "> <i class="fas fa-toolbox"></i> </span>
                 <?php the_field("about_text_1")?>
             </p>
             <p class=" d-flex align-items-center">
-                <span style="font-size: 2.5em; color: #333399;padding-right:2rem;"><i class="fas fa-hammer"></i></span> 
+                <span style="font-size: 3em; color: #333399;padding-right:2rem;"><i class="fas fa-hammer"></i></span> 
                 <?php the_field("about_text_2")?>
             </p>
             <p class=" d-flex align-items-center">
-                <span style="font-size: 2.5em; color: #333399;padding-right:2rem;"><i class="fas fa-truck-moving"></i></span> 
+                <span style="font-size: 3em; color: #333399;padding-right:2rem;"><i class="fas fa-truck-moving"></i></span> 
                 <?php the_field("about_text_3")?>
             </p>
         </div>

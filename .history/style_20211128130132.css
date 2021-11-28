@@ -26,13 +26,19 @@ grey: 939597 GREY ONE
   border: 1px solid blue;
 }
 
-
-html,body {
+html {
+  padding: 0;
+  margin: 0;
+}
+body {
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
-  height: 100%; 
 }
+
+/* Just for now place holder */
+
+
 
 /* Typography  */
 h1 {
@@ -87,10 +93,11 @@ p {
     color:black !important;
   }
 
-  .navbar-dark .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 48 36' fill='rgb(20,20,20)'><rect x='16' y='12' width='16' height='2' /><rect x='16' y='17' width='16' height='2' /><rect x='16' y='22' width='16' height='2' /></svg>")  !important;
+
+  .navbar-collapse .collapse .show{
+    
   }
-  
+
 .navbar-brand {
   font-size: 23px;
   line-height: 1em;
@@ -102,7 +109,6 @@ p {
   color: white!important;
   font-size: 18px;
   font-weight: 400;
-   cursor: pointer; 
 }
 
 .navbar-dark .nav-item.active .nav-link,
@@ -124,19 +130,13 @@ p {
 .navbar-dark .navbar-nav > li > a {
   color: #999;
   line-height: 60px;
- 
 }
 
 /* Toggle button */
 .navbar-toggler {
   border: none;
- 
+  color: white !important;
 }
-.navbar-toggler-icon{
-    width: 5rem;
-}
-
-
 
 .navbar-toggler:focus {
   outline: none !important;
@@ -387,48 +387,3 @@ a {
     background:cover; 
     opacity:90%;
   }
-
-   /* Landing page container */
-
-  .icon-phone{
-      color:var(--primary);
-      font-size: 2rem;
-  }
-  .phone-number h2{
-      color:var(--jet-black);
-      font-weight: bold;
-  }
-
-  /* Media Query */
-
-  @media (max-width: 576px) { 
-    .navbar {
-      
-        background-color: #f0f0f0 !important; 
-       
-      }
-      .navbar-dark .navbar-nav > li > a {
-        color: black !important;
-        
-      }
-      .navbar-brand {
-        font-size: 23px;
-        line-height: 1em;
-        font-weight: bold;
-        color: black !important;
-      }
-      .line{
-          max-width: 100% !important;
-      }
-      .icon-phone{
-        margin-right: 4%;
-      }
-      .row-class{
-          justify-content: start !important;
-      }
-      .button-wrapper{
-          margin-top:3%;
-      }
-
-   }
-

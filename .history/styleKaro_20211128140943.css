@@ -18,16 +18,13 @@
   height: 20%;
 }
 
-.contactBtn  {
+.contactBtn h2 {
   background-color: #333399;
-  color: #f8f8f9 ;
+  color: #f8f8f9;
   border: 0;
  /*  box-shadow: 0px 0px 15px #333399; */
   letter-spacing: 0.1rem;
   max-height: 80%;
-}
-.contactBtn h2{
-  color:white !important;
 }
 .main-body {
   height: auto;

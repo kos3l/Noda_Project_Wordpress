@@ -105,7 +105,7 @@
         <div class="col-12 col-lg-6 mb-5 mt-5">
         <img src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHdvcmtlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" width="100%" alt="">
         </div>
-        <div class="col-12 col-lg-6 px-0 mx-0 ps-5 d-flex flex-column justify-content-evenly">
+        <div class="col-12 col-lg-6 px-0 mx-0 ps-5 d-flex flex-column justify-content-around">
             <p class=" d-flex align-items-center">
                 <span style="font-size: 2.5em; color: #333399; padding-right:2rem; "> <i class="fas fa-toolbox"></i> </span>
                 <?php the_field("about_text_1")?>
