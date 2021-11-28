@@ -5,7 +5,7 @@
                <!--  Section for video  -->
                <section class="hero-section-2 position-relative text-center">
                <video autoplay muted loop id="myVideo">
-  <source src="https://assets.mixkit.co/videos/preview/mixkit-carpenter-sanding-a-piece-of-lumber-776-large.mp4" type="video/mp4">
+  <source src="https://assets.mixkit.co/videos/download/mixkit-working-on-a-construction-site-21021-medium.mp4" type="video/mp4">
 </video>
 
 </section>
@@ -85,7 +85,7 @@
         </div>
         <div class="col-12 col-md-6 col-lg-6 ">
         <div class="service-main-image-wrapper text-center ">
-                <img src="https://pageflooring.com/wp-content/uploads/2019/08/flooring-prep-600x399.jpg" width="100%" alt="">
+                <img src="https://assets.mixkit.co/videos/preview/mixkit-carpenter-sanding-a-piece-of-lumber-776-large.mp4" width="100%" alt="">
                 </div>
         </div>
     </div>

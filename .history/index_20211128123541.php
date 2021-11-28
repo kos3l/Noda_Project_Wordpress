@@ -85,7 +85,7 @@
         </div>
         <div class="col-12 col-md-6 col-lg-6 ">
         <div class="service-main-image-wrapper text-center ">
-                <img src="https://pageflooring.com/wp-content/uploads/2019/08/flooring-prep-600x399.jpg" width="100%" alt="">
+                <img src="https://images.unsplash.com/photo-1595844730298-b960ff98fee0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" width="100%" alt="">
                 </div>
         </div>
     </div>
