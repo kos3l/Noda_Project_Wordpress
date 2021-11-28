@@ -1,0 +1,63 @@
+/*
+Theme name: Noda
+Author: Karolina Kosinska & Tomas Simko 
+Description: A theme created for Noda company
+Version: 1
+
+*/
+
+/* Typography */
+/* 
+primary : #333399 NAVY
+secondary : #2D2C2F BLACK
+grey: 939597 GREY ONE 
+
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700&display=swap");
+
+:root {
+  --primary: #333399;
+  --jet-black: #2d2c2f;
+  --secondary: #939597;
+}
+.collapse.in {
+  min-height: 50px;
+  border: 1px solid blue;
+}
+
+
+html,body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  height: 100%; 
+}
+
+
+
+
+
+  
+
+
+
+ 
+ 
+ 
+
+  
+  /* General nice paddings */
+
+  .block-padding{
+    padding: 0 25px;
+    margin-top: 2em;
+  }
+
+  
+
+
+
+    
+
+

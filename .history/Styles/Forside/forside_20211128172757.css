@@ -1,0 +1,10 @@
+ /* Landing page container */
+
+ .icon-phone{
+    color:var(--primary);
+    font-size: 2rem;
+}
+.phone-number h2{
+    color:var(--jet-black);
+    font-weight: bold;
+}

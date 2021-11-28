@@ -1,0 +1,37 @@
+/* Accordion */
+
+.ac_title_class {
+    font-family: "Poppins", sans-serif;
+  }
+  #wpsm_accordion_203 .wpsm_panel-body {
+    font-family: "Poppins", sans-serif !important;
+  }
+  .collapse.in {
+    border: none !important;
+  }
+  
+  
+    .ac_title_class{
+      font-family: "Poppins", sans-serif;
+    }
+    #wpsm_accordion_203 .wpsm_panel-body{
+      font-family: "Poppins", sans-serif !important;
+    }
+    .collapse.in{
+        border:none !important;
+    }
+
+/* 
+   @media (min-width: 768px) {
+    .video-wrapper iframe{
+        width: 560px;
+    }
+  
+}
+
+@media (min-width: 992px) {
+ .video-wrapper iframe{
+     width: 560px;
+ }
+ 
+}

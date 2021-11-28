@@ -1,0 +1,25 @@
+
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+    .navbar {
+      padding-top: 0.5rem !important ;
+      padding-bottom: 0.5rem !important;
+    }
+    .navbar-collapse {
+      height: 100vh;
+      text-align: center;
+      margin-top: 13%;
+    }
+    .col-wrapper {
+      border-bottom: 1px solid #60616438;
+      border-right: none !important;
+    }
+    .inherit {
+      padding-bottom: 15%;
+    }
+  }
