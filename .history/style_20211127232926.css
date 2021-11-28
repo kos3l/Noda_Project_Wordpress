@@ -1,0 +1,379 @@
+/*
+Theme name: Noda
+Author: Karolina Kosinska & Tomas Simko 
+Description: A theme created for Noda company
+Version: 1
+
+*/
+
+/* Typography */
+/* 
+primary : #333399 NAVY
+secondary : #2D2C2F BLACK
+grey: 939597 GREY ONE 
+
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700&display=swap");
+
+:root {
+  --primary: #333399;
+  --jet-black: #2d2c2f;
+  --secondary: #939597;
+}
+.collapse.in {
+  min-height: 50px;
+  border: 1px solid blue;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Just for now place holder */
+
+
+
+/* Typography  */
+h1 {
+  font-weight: bold;
+  /* text-shadow: 0px 0px 10px #999999; */
+  color: var(--primary);
+  font-size: 3rem;
+}
+h2{
+    font-size:1.25rem;
+    color:var(--primary);
+}
+h3,
+h4 {
+  font-weight: 600;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 0.1rem;
+  /* text-shadow: 0px 0px 10px #999999; */
+}
+p {
+  font-weight: 300;
+}
+
+/* Nav Bar */
+
+.navbar {
+  padding: 0 !important;
+  min-height: 50px;
+  /* background-color: #f0f0f0; */
+  background:transparent;
+}
+
+.bg-color.scrolled {
+  /* background-color: rgb(0, 0, 0, 0.692); */
+  background-color: #f0f0f0;
+  color:black !important;
+}
+.bg-color.scrolled .navbar-brand {
+    /* background-color: rgb(0, 0, 0, 0.692); */
+    
+    color:black !important;
+  }
+
+.navbar-brand {
+  font-size: 20px;
+  line-height: 1em;
+  font-weight: bold;
+  color: white !important;
+}
+.nav-link {
+  /* color: black !important; */
+  color: white!important;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.navbar-dark .nav-item.active .nav-link,
+.navbar-dark .nav-item .nav-link:active,
+.navbar-dark .nav-item .nav-link:focus,
+.navbar-dark .nav-item:hover .nav-link {
+  background: var(--primary) !important;
+  color: white !important;
+ /*  min-height: 100px; */
+ min-height: 10vh;
+}
+
+.navbar-nav > li > a {
+  padding-top: 18px;
+  /* padding-bottom: 18px; */
+  padding-bottom: 10px;
+}
+
+.navbar-dark .navbar-nav > li > a {
+  color: #999;
+  line-height: 60px;
+}
+
+/* Toggle button */
+.navbar-toggler {
+  border: none;
+  color: white !important;
+}
+
+.navbar-toggler:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+/* Media query */
+
+a {
+  color: #333399;
+}
+
+/* Gallery */
+
+.ngg-simplelightbox {
+  overflow: hidden;
+}
+
+.ngg-gallery-thumbnail img {
+  width: 500px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.ngg-galleryoverview.default-view .ngg-gallery-thumbnail img:hover {
+  opacity: 100%;
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+@media (max-width: 575.98px) {
+  .navbar {
+    padding-top: 0.5rem !important ;
+    padding-bottom: 0.5rem !important;
+  }
+  .navbar-collapse {
+    height: 100vh;
+    text-align: center;
+    margin-top: 13%;
+  }
+  .col-wrapper {
+    border-bottom: 1px solid #60616438;
+    border-right: none !important;
+  }
+  .inherit {
+    padding-bottom: 15%;
+  }
+}
+
+/* Kontakt */
+
+.page-title h1 {
+  text-shadow: 0px 0px 10px #999999;
+  color: var(--primary);
+  font-size: 3rem;
+}
+.description h2 {
+  font-size: 18px;
+}
+
+.info-background {
+  background: #f8f8f9;
+  padding: 2%;
+}
+
+.col-text p {
+  color: var(--primary);
+  font-size: 18px;
+}
+
+.col-title h3 {
+  font-size: 22px;
+}
+
+.col-wrapper {
+  border-right: 1px solid #60616438;
+  padding: 35px 0px 30px 0px;
+}
+
+.google-map {
+  overflow: hidden;
+  height: 500px;
+}
+.google-map-home {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+#map {
+  height: 400px;
+}
+
+.form-background {
+  background: #f8f8f9;
+}
+
+.form-bg {
+  background: #ffffff;
+}
+.form-shaddow {
+  box-shadow: 0 3px 6px grey;
+}
+
+.info-bg {
+  background: var(--primary);
+}
+
+.info-title h3 {
+  color: white;
+}
+.info-sub {
+  display: inherit;
+}
+.inherit {
+  display: inherit;
+}
+.info-sub > h3 {
+  color: white;
+  font-size: 18px;
+}
+.info-icon {
+  margin-right: 10%;
+}
+.info-icon i {
+  font-size: 1.5rem;
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+}
+
+.text-area {
+  min-height: 100px;
+}
+
+.form-control {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid rgba(211, 209, 209, 0.411);
+}
+.form-group label {
+  opacity: 70%;
+}
+
+.form-group {
+  margin-bottom: 5%;
+}
+
+.form-button {
+  background: var(--primary);
+}
+.form-button .btn {
+  color: white;
+}
+.form-button .btn {
+  color: white;
+}
+
+.hero-section {
+  height: 60vh;
+}
+
+.hero-section img {
+  opacity: 80%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+   
+
+
+/* Accordion */
+
+.ac_title_class {
+  font-family: "Poppins", sans-serif;
+}
+#wpsm_accordion_203 .wpsm_panel-body {
+  font-family: "Poppins", sans-serif !important;
+}
+.collapse.in {
+  border: none !important;
+}
+
+/* 404 */
+
+.Error-container {
+  height: 60vh;
+}
+.errorRow {
+  height: 100%;
+  width: 100%;
+}
+  .ac_title_class{
+    font-family: "Poppins", sans-serif;
+  }
+  #wpsm_accordion_203 .wpsm_panel-body{
+    font-family: "Poppins", sans-serif !important;
+  }
+  .collapse.in{
+      border:none !important;
+  }
+
+  /* Video */
+
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+
+  .hero-section-2 {
+    height: 70vh;
+  }
+  
+  .hero-section-2 img {
+    opacity: 80%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  /* Landing page */
+
+ .introduction-section{
+     background: #f8f8f9;
+ }
+
+ .galleri-show .ngg-gallery-thumbnail img {
+    width: 300px;
+
+
+  }
+
+  #myVideo {
+    position: absolute; 
+    right: 0;
+    bottom: 30px;
+    min-width: 100%;
+    min-height: 100%;
+    background:cover;
+    opacity:70%;
+  }

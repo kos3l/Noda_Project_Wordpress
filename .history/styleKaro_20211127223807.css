@@ -1,0 +1,99 @@
+/*footer*/
+.footerNoda .col-sm h5 {
+  color: #333399;
+}
+
+.footerNoda {
+  height: 25vh;
+  width: 100%;
+}
+
+.line {
+  height: 1px;
+  border-bottom: 2px solid #2d2c2f;
+  width: auto;
+}
+.line-height {
+  height: 20%;
+}
+
+/*index*/
+/* .video {
+  height: 75vh;
+  background-color: blue;
+} */
+.contactBtn {
+  background-color: #333399;
+  color: #f8f8f9;
+  border: 0;
+  box-shadow: 0px 0px 15px #333399;
+  letter-spacing: 0.1rem;
+  max-height: 80%;
+}
+.main-body {
+  height: auto;
+}
+.main-body .homeImg img {
+  width: 100%;
+  height: 100%;
+}
+.main-body .homeImg {
+  width: 50%;
+  height: 60vh;
+}
+.under {
+  margin-top: 20vh;
+}
+.serviceLink {
+  color: #333399;
+  font-weight: 700;
+}
+
+.testimonials {
+  background-color: #f8f8f9;
+  height:50vh;
+ 
+}
+.testimonials h2 {
+  color: #f8f8f9;
+}
+
+
+.location {
+  background-color: #333399;
+  height: 80vh;
+}
+.location h2,
+.location h3 {
+  color: #f8f8f9;
+}
+.location p {
+  color: #f8f8f9;
+}
+.locationBtn {
+  background-color: #333399;
+  width: 18rem;
+  color: #f8f8f9;
+  border: 2px solid #f8f8f9;
+  box-shadow: 0px 0px 15px #999999, inset 0px 0px 15px #999999;
+  letter-spacing: 0.1rem;
+  max-height: 80%;
+}
+/* about */
+
+.abouth5 {
+  color: #333399;
+}
+
+.aboutImg img {
+  width: 90%;
+  height: 60%;
+}
+
+/*service */
+
+.serviceBtns button {
+  background-color: rgba(1, 1, 1, 0);
+  border: 0;
+  padding: 0;
+}
