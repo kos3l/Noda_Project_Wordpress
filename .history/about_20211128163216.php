@@ -54,7 +54,7 @@ Template name: About
         </div>
         <div class="col-12 col-md-6 col-lg-6">
         <div class="om-os-image-wrapper ">
-                <img src="<?php the_field("om_os_forste_billede")?>" width="100%" alt="">
+                <img src="<?php the_field("om_os_header")?>" width="100%" alt="">
                 </div>
         </div>
     </div>
@@ -66,7 +66,7 @@ Template name: About
         <div class="col-12 col-lg-6 col-md-6 ">
 
         <div class="om-os-image-wrapper mt-5 ">
-                <img src="<?php the_field("om_os_andet_billede")?>" width="100%" alt="">
+                <img src="<?php the_field("om_os_header")?>" width="100%" alt="">
                 </div>
         </div>
 
