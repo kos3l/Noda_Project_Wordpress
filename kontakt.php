@@ -65,12 +65,8 @@ Template name: Kontakt
                         <h3><?php the_field("form-titel") ?></h3>
                     </div>
                     <div class="container pt-5">
-                    <?php echo do_shortcode('[contact-form-7 id="49" title="Kontakt Form"]') ?>
-                   
-
-
-                            
-                        </div>
+                    <?php echo do_shortcode('[contact-form-7 id="48" title="Kontakt Form"]') ?>
+                    </div>
                     </div>
                 </div>
                </div>

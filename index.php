@@ -139,7 +139,7 @@
         <div class="col-12">
        
           <div class="galleri-show">
-              <?php echo do_shortcode('[ngg src="galleries" ids="3" display="basic_thumbnail" thumbnail_crop="0" images_per_page="6" ajax_pagination="0"]') ?>
+              <?php echo do_shortcode('[ngg src="galleries" ids="2" display="basic_thumbnail" thumbnail_crop="0" images_per_page="6" number_of_columns="3" ajax_pagination="0"]') ?>
           </div>
         </div>
     </div>
