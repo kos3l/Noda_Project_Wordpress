@@ -4,7 +4,7 @@
                <!--  Section for video  -->
                <section class="hero-section-2 position-relative text-center">
                <video autoplay muted loop id="myVideo">
-  <source src="<?php the_field("forside_video");?>" type="video/mp4">
+  <source src="https://assets.mixkit.co/videos/preview/mixkit-carpenter-sanding-a-piece-of-lumber-776-large.mp4" type="video/mp4">
 </video>
 
 </section>

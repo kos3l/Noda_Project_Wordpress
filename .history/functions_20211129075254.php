@@ -44,7 +44,10 @@ function wpb_hook_javascript_footer() {
        $(window).scroll(function(){
            $('nav').toggleClass('scrolled', $(this).scrollTop() > 400);
        });
-       var mybutton = document.getElementById("scroll_top_btn");
+    </script>
+
+
+var mybutton = document.getElementById("scroll_top_btn");
 
 
 window.onscroll = function() {scrollFunction()};
@@ -57,15 +60,10 @@ function scrollFunction() {
   }
 };
 
-
-function topFunction() {
+// When the user clicks on the button, scroll to the top of the documentfunction topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-    </script>
-
-
-
     <?php
 }
 add_action("wp_footer","wpb_hook_javascript_footer");   

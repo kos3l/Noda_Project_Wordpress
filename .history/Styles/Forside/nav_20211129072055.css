@@ -32,8 +32,8 @@
     line-height: 1em;
     font-weight: bold;
     color: white !important;
-    /* we see bout it  */
-    -webkit-text-stroke: 1px #0000009e;
+    
+    -webkit-text-stroke: 1px black;
   }
   .nav-link {
     /* color: black !important; */

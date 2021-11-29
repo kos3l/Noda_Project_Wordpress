@@ -4,7 +4,7 @@
                <!--  Section for video  -->
                <section class="hero-section-2 position-relative text-center">
                <video autoplay muted loop id="myVideo">
-  <source src="<?php the_field("forside_video");?>" type="video/mp4">
+  <source src="https://assets.mixkit.co/videos/preview/mixkit-carpenter-sanding-a-piece-of-lumber-776-large.mp4" type="video/mp4">
 </video>
 
 </section>
@@ -16,7 +16,7 @@
      <div class="row">
          <div class="col-12 col-md-6 col-lg-6">
              <div class="main title">
-                 <h1><?php the_field("main_title") ?></h1>
+                 <h1>EN AFTALE ER EN AFTALE</h1>
              </div>
              <div class="main-title-description">
                  <p>Great quality for lower prices </p>
@@ -29,7 +29,7 @@
                    <i class="fa fa-phone"></i>
                    </div>
                    <div class="phone-number no-gutters">
-                       <h2><?php the_field("phone_number") ?> </h2>
+                       <h2>40 40 40 40 </h2>
                    </div>
                </div>
                <div class="col-12 col-md-6 col-lg-6">
@@ -46,7 +46,7 @@
  </div>  
 
  <div class="to-top-container to-top-right" >
- <button onclick="topFunction()" id="scroll_top_btn" ><i class="fas fa-angle-up"></i></button>
+ <button onclick="topFunction()" id="scroll_top_btn" ><i class="fas fa-angle-d-up"></i></button>
 
  </div>
 
@@ -159,7 +159,7 @@
             <h2>TESTIMONIALS</h2>
         </div>
         <div class="col-12">
-        <?php echo do_shortcode('[sp_testimonial id="323" ]'); ?>
+        <?php echo do_shortcode('[sp_testimonial id="273"]'); ?>
         </div>
     </div>
 

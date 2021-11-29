@@ -36,8 +36,10 @@ html,body {
 
 
   #scroll_top_btn {
+
+    
     background-color: var(--primary);
-    bottom: 0;
+d    bottom: 0;
     display: none;
     height: 35px;
     position: fixed;
