@@ -31,9 +31,13 @@
   .google-map {
     overflow: hidden;
     height: 500px;
-    
+    eight: 500px;
   }
- 
+  .google-map-home {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+  }
   #map {
     height: 400px;
   }

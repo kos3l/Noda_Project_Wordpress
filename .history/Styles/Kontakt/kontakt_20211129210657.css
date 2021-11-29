@@ -33,7 +33,10 @@
     height: 500px;
     
   }
- 
+  .google-map-home {
+    overflow: hidden;
+    height: 500px;
+  }
   #map {
     height: 400px;
   }

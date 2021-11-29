@@ -165,34 +165,42 @@
 
   
 
-  <div class="container-fluid mb-5 location-container">
+<!--     <div class="row main-body location mx-0 mb-5 ">
+        <div class="col-12 col-sm-6 p-md-5 d-flex  justify-content-center align-items-center ">
+            <div class="contact-wrapper text-center">
+            <h2>WHERE TO FIND US</h2>
+            
+            
+            <p>
+            </p>
+            <button class="locationBtn p-md-4 mt-4">
+                <h4 class="px-3 mb-0">CONTACT US</h4>
+            </button>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 px-0">
+            <div class="google-map-home">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2285.9725967869626!2d10.667244316101504!3d55.04369605392309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x282457f564d3fa3b!2zNTXCsDAyJzM3LjMiTiAxMMKwNDAnMTAuMCJF!5e0!3m2!1sen!2sdk!4v1637916314218!5m2!1sen!2sdk" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div> -->
 
-    <div class="container"> 
+  <div class="container-fluid mb-5 location-container">
+    <!-- <div class="container"> -->
 
    
         <div class="row main-body location ">
-            <div class="col-12 col-sm-6 d-flex align-items-center">
-                <div class="contact-wrapper">
-                    <div class="contact-text">
-                        <h2>Where to find us</h2>
+            <div class="col-12 col-sm-6">
+                <div class="row">
+                    <div class="col-6">
+
                     </div>
-                    <div class="contact-paragraph">
-                  <p>
-                        We are closer than you think. You can find our company at:
-                    5700 Svendborg
-                    Denmark
-                    Violvænget 3 , Thurø
-                    And if you have any further question, send us message or call us.
-                  </p>
-                    </div>
-                    <button class="locationBtn p-md-4 mt-4">
-                <h4 class="px-3 mb-0">CONTACT US</h4>
-            </button>
-                </div>
+                
+                
             </div>
 
 
-            <div class="col-12 col-sm-6 px-0 pt-5">
+            <div class="col-12 col-sm-6 px-0">
                 <div class="contact-wrapper">
                     <div class="google-map-home">
                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2285.9725967869626!2d10.667244316101504!3d55.04369605392309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x282457f564d3fa3b!2zNTXCsDAyJzM3LjMiTiAxMMKwNDAnMTAuMCJF!5e0!3m2!1sen!2sdk!4v1637916314218!5m2!1sen!2sdk" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -201,7 +209,7 @@
             </div>
 
         </div>
-        </div> 
+       <!--  </div> -->
     </div>
 
 

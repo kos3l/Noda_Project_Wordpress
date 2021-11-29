@@ -57,11 +57,6 @@
   color: #f8f8f9;
 }
 
-.location-container{
-  overflow:hidden;
-  background-color: #333399;
-  height: 500px;
-}
 
 .location {
   background-color: #333399;
@@ -79,6 +74,7 @@
   width: 18rem;
   color: #f8f8f9;
   border: 2px solid #f8f8f9;
+  /* box-shadow: 0px 0px 15px #999999, inset 0px 0px 15px #999999; */
   letter-spacing: 0.1rem;
   max-height: 80%;
 }

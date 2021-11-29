@@ -57,15 +57,11 @@
   color: #f8f8f9;
 }
 
-.location-container{
-  overflow:hidden;
-  background-color: #333399;
-  height: 500px;
-}
 
 .location {
   background-color: #333399;
   height: 500px;
+  overflow:hidden;
 }
 .location h2,
 .location h3 {

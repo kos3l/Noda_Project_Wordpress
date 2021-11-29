@@ -32,14 +32,14 @@
 
   .google-map-home {
     overflow: hidden;
-    height: 400px;
+    height: 500px;
   }
  
  /* Landing page container */
 
  .icon-phone{
     color:var(--jet-black);
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-bottom: 3%;
 }
 .phone-number h2{

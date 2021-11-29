@@ -30,16 +30,13 @@
   }
 
 
-  .google-map-home {
-    overflow: hidden;
-    height: 400px;
-  }
+ 
  
  /* Landing page container */
 
  .icon-phone{
-    color:var(--jet-black);
-    font-size: 1.5rem;
+    color:;
+    font-size: 1.8rem;
     margin-bottom: 3%;
 }
 .phone-number h2{
