@@ -1,0 +1,118 @@
+/* Nav Bar */
+
+.navbar {
+    padding: 0 !important;
+    min-height: 50px;
+    /* background-color: #f0f0f0; */
+    background:transparent;
+  }
+  
+  .bg-color.scrolled {
+    /* background-color: rgb(0, 0, 0, 0.692); */
+    background-color: #f0f0f0;
+    color:black !important;
+  }
+  .bg-color.scrolled .navbar-brand {
+      /* background-color: rgb(0, 0, 0, 0.692); */
+      
+      color:black !important;
+    }
+    .bg-color.scrolled .nav-link {
+      /* background-color: rgb(0, 0, 0, 0.692); */
+      
+      color:black !important;
+    }
+  
+    .navbar-dark .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 48 36' fill='rgb(20,20,20)'><rect x='16' y='12' width='16' height='2' /><rect x='16' y='17' width='16' height='2' /><rect x='16' y='22' width='16' height='2' /></svg>")  !important;
+    }
+    .bg-color.scrolled .div-logo-test{
+        display:block;
+    }
+    
+  .navbar-brand {
+    font-size: 23px;
+    line-height: 1em;
+    font-weight: bold;
+    color: white !important;
+    /* we see bout it  */
+    -webkit-text-stroke: 1px #0000009e;
+    display:inherit;
+  }
+
+  .div-logo-test{
+    display:none;
+  }
+
+
+
+  .nav-link {
+    /* color: black !important; */
+    color: white!important;
+    font-size: 18px;
+    font-weight: 400;
+     cursor: pointer; 
+  }
+  
+  .navbar-dark .nav-item.active .nav-link,
+  .navbar-dark .nav-item .nav-link:active,
+  .navbar-dark .nav-item .nav-link:focus,
+  .navbar-dark .nav-item:hover .nav-link {
+    background: var(--primary) !important;
+    color: white !important;
+   /*  min-height: 100px; */
+   min-height: 10vh;
+  }
+  
+  .navbar-nav > li > a {
+    padding-top: 18px;
+    /* padding-bottom: 18px; */
+    padding-bottom: 10px;
+  }
+  
+  .navbar-dark .navbar-nav > li > a {
+    color: #999;
+    line-height: 60px;
+   
+  }
+  
+  /* Toggle button */
+  .navbar-toggler {
+    border: none;
+   
+  }
+  .navbar-toggler-icon{
+      width: 5rem;
+  }
+  
+  
+  
+  .navbar-toggler:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+
+
+/* Media query */
+
+
+
+@media (max-width: 575.98px) {
+    .navbar {
+      padding-top: 0.5rem !important ;
+      padding-bottom: 0.5rem !important;
+    }
+    .navbar-collapse {
+      height: 100vh;
+      text-align: center;
+      margin-top: 13%;
+    }
+    .col-wrapper {
+      border-bottom: 1px solid #60616438;
+      border-right: none !important;
+    }
+    .inherit {
+      padding-bottom: 15%;
+    }
+  }
