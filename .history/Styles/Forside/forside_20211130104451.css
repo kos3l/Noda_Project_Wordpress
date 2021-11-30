@@ -1,0 +1,62 @@
+ /* Video BG */
+ 
+ #myVideo {
+    position: absolute; 
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background:cover; 
+    opacity:80%;
+  }
+ 
+  .introduction-section{
+    background: var(--primary);
+}
+.intro-test{
+  background-image: ;
+}
+
+/* Video WTF need to be fixed THE PROBLEM PROPABLY */
+
+.main-title h2{ 
+    color:white;
+
+}
+.picture-wrapper-main{
+    max-width: 450px;
+
+}
+
+/* .service-main-image-wrapper{
+    max-width: 450px;
+} */
+
+  .hero-section-2 {
+    height: 75vh;
+  }
+  
+  .hero-section-2 img {
+    opacity: 80%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  .google-map-home {
+    overflow: hidden;
+    height: 400px;
+  }
+ 
+ /* Landing page container */
+
+ .icon-phone{
+    color:var(--jet-black);
+    font-size: 1.5rem;
+    margin-bottom: 3%;
+}
+.phone-number h2{
+    color:var(--primary);
+    font-weight: bold;
+}
