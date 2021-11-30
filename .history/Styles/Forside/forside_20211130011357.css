@@ -18,7 +18,7 @@
 
 .main-title h2{ 
     color:white;
-
+    font-size:2rem
 }
 .picture-wrapper-main{
     max-width: 450px;
@@ -30,7 +30,7 @@
 } */
 
   .hero-section-2 {
-    height: 75vh;
+    height: 70vh;
   }
   
   .hero-section-2 img {
