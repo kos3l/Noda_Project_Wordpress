@@ -1,0 +1,36 @@
+  /* Media Query  NAV NEED FIX THERE ON TABLETS*/
+
+  @media (max-width: 576px) { 
+    .navbar {
+      
+        background-color: #f0f0f0 !important; 
+       
+      }
+      .navbar-dark .navbar-nav > li > a {
+        color: black !important;
+        
+      }
+      .navbar-brand {
+        font-size: 23px;
+        line-height: 1em;
+        font-weight: bold;
+        color: black !important;
+
+    
+      }
+      
+      .line{
+          max-width: 100% !important;
+      }
+      .icon-phone{
+        margin-right: 4%;
+      }
+      .row-class{
+          justify-content: start !important;
+      }
+      .button-wrapper{
+         /*  margin-top:3%; */
+      }
+     
+
+   }

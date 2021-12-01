@@ -16,11 +16,11 @@ function Noda_enqueue_styles() {
     {
         switch($post->post_name) 
         {
-            case 'om-os':
-                wp_enqueue_script('anim-os', get_template_directory_uri() . '/js/om_os.js', array('jquery'), '1.6', true);
-                break;
             case '':
-                wp_enqueue_script('anim-forside', get_template_directory_uri() . '/js/forside.js', array('jquery'), '1.6', true);
+                wp_enqueue_script('anim-os', get_template_directory_uri() . '/js/om_os.js', array('jquery'), '', false);
+                break;
+            case 'front-page':
+                wp_enqueue_script('anim-forside', get_template_directory_uri() . '/js/forside.js', array('jquery'), '', true);
                 break;
             case 'kontakt':
                 wp_enqueue_script('anim-kont', get_template_directory_uri() . '/js/kontakt.js', array('jquery'), '1.6', true);
@@ -82,7 +82,8 @@ function topFunction() {
 }
 
 
-/* gsap.registerPlugin(ScrollTrigger);  */
+
+
 
 
 

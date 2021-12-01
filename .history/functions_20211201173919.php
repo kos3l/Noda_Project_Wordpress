@@ -12,18 +12,26 @@ function Noda_enqueue_styles() {
     wp_enqueue_script("gsap", "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js");
     wp_enqueue_script("gsap-scroll-to", "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugin.min.js");
 
+   /*  if($post->post_name == "index") {
+      wp_enqueue_script("animation-forside", get_stylesheet_directory_uri() . "/js/forside.js");
+    }
+    if($post->post_name == "om-os") {
+      wp_enqueue_script("om-os-animation", get_stylesheet_directory_uri() . "/js/om_os.js");
+  
+    } */
+
     if( is_page() || is_single() )
     {
         switch($post->post_name) 
         {
+            case '/':
+                wp_enqueue_script('/', get_template_directory_uri() . '/js/home.js', array('jquery'), '', false);
+                break;
             case 'om-os':
-                wp_enqueue_script('anim-os', get_template_directory_uri() . '/js/om_os.js', array('jquery'), '1.6', true);
+                wp_enqueue_script('anim', get_template_directory_uri() . '/js/om_os.js', array('jquery'), '', true);
                 break;
-            case '':
-                wp_enqueue_script('anim-forside', get_template_directory_uri() . '/js/forside.js', array('jquery'), '1.6', true);
-                break;
-            case 'kontakt':
-                wp_enqueue_script('anim-kont', get_template_directory_uri() . '/js/kontakt.js', array('jquery'), '1.6', true);
+            case 'services':
+                wp_enqueue_script('somepost', get_template_directory_uri() . '/js/somepost.js', array('jquery'), '1.6', true);
                 break;
         }
     } 
@@ -82,8 +90,20 @@ function topFunction() {
 }
 
 
-/* gsap.registerPlugin(ScrollTrigger);  */
+gsap.registerPlugin(ScrollTrigger); 
 
+
+gsap.from('.each-scroll-pop', {
+   autoAlpha:0, 
+  y: 30,
+   duration:2,
+   toggleActions:"play none none none ",
+  scrollTrigger:{
+      trigger: ".trigger-test-2",
+  }
+ 
+  
+})   
 
 
 

@@ -17,9 +17,9 @@ function Noda_enqueue_styles() {
         switch($post->post_name) 
         {
             case 'om-os':
-                wp_enqueue_script('anim-os', get_template_directory_uri() . '/js/om_os.js', array('jquery'), '1.6', true);
+                wp_enqueue_script('anim-os', get_template_directory_uri() . '/js/om_os.js', array('jquery'), '1.6', false);
                 break;
-            case '':
+            case 'services':
                 wp_enqueue_script('anim-forside', get_template_directory_uri() . '/js/forside.js', array('jquery'), '1.6', true);
                 break;
             case 'kontakt':
@@ -82,8 +82,20 @@ function topFunction() {
 }
 
 
-/* gsap.registerPlugin(ScrollTrigger);  */
+gsap.registerPlugin(ScrollTrigger); 
 
+
+gsap.from('.each-scroll-pop', {
+   autoAlpha:0, 
+  y: 30,
+   duration:2,
+   toggleActions:"play none none none ",
+  scrollTrigger:{
+      trigger: ".trigger-test-2",
+  }
+ 
+  
+})   
 
 
 

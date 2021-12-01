@@ -19,7 +19,7 @@ function Noda_enqueue_styles() {
             case 'om-os':
                 wp_enqueue_script('anim-os', get_template_directory_uri() . '/js/om_os.js', array('jquery'), '1.6', true);
                 break;
-            case '':
+            case 'nodabyg aps':
                 wp_enqueue_script('anim-forside', get_template_directory_uri() . '/js/forside.js', array('jquery'), '1.6', true);
                 break;
             case 'kontakt':
