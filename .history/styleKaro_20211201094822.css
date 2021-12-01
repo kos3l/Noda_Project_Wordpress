@@ -1,0 +1,39 @@
+
+
+
+
+
+
+
+
+
+
+
+.location-container{
+  overflow:hidden;
+  background-color: #333399;
+
+}
+
+.location {
+  background-color: #333399;
+
+}
+.location h2,
+.location h3 {
+  color: red;
+}
+.location p {
+  color: #f8f8f9;
+}
+
+
+
+
+/*service */
+
+.serviceBtns button {
+  background-color: rgba(1, 1, 1, 0);
+  border: 0;
+  padding: 0;
+}

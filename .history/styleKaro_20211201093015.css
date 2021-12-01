@@ -1,0 +1,61 @@
+
+
+
+
+.main-body {
+  height: auto;
+}
+
+.under {
+  margin-top: 20vh;
+}
+.serviceLink {
+  color: #333399;
+  font-weight: 700;
+}
+
+.testimonials {
+  background-color: #f8f8f9;
+  height:60vh;
+ 
+}
+.testimonials h2 {
+  color: #f8f8f9;
+}
+
+.location-container{
+  overflow:hidden;
+  background-color: #333399;
+
+}
+
+.location {
+  background-color: #333399;
+
+}
+.location h2,
+.location h3 {
+  color: #f8f8f9;
+}
+.location p {
+  color: #f8f8f9;
+}
+
+/* about */
+
+.abouth5 {
+  color: #333399;
+}
+
+.aboutImg img {
+  width: 90%;
+  height: 60%;
+}
+
+/*service */
+
+.serviceBtns button {
+  background-color: rgba(1, 1, 1, 0);
+  border: 0;
+  padding: 0;
+}
