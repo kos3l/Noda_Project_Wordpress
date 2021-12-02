@@ -15,7 +15,7 @@
                  <h1><?php the_field("main_title") ?></h1>
              </div>
              <div class="main-title-description ">
-                 <p ><?php the_field("iorefaldende_titel") ?> </p>
+                 <p><?php the_field("iorefaldende_titel") ?> </p>
              </div>
          </div>
          <div class="col-12 col-md-6 col-lg-6">
@@ -28,14 +28,11 @@
                        <h2><?php the_field("phone_number") ?> </h2>
                    </div>
                </div>
-               <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-md-end">
+               <div class="col-12 col-md-6 col-lg-6">
                <div class="button-wrapper">
-                   <!--       <button class="contactBtn d-flex p-3"> -->
-                       <div class="contactBtn d-flex p-3">
-                       <a class="effect effect-1" href="<?php echo get_permalink( get_page_by_path( 'kontakt' ) );?>" title="kontakt os">kontakt os</a>
-
-                       </div>
-                        <!-- </button> -->
+                         <button class="contactBtn p-4">
+                            <a class="effect effect-1" href="<?php echo get_permalink( get_page_by_path( 'contact' ) );?>" title="kontakt os">kontakt os</a>
+                        </button>
                        
                      </div>
                </div>
@@ -69,7 +66,7 @@
                 </div>
     
         <div class="col  pt-5 ">
-            <a class=" serviceLink" href="<?php echo get_permalink( get_page_by_path( 'services' ) );?>" title="services">Discover all of our services</a>
+            <a class=" serviceLink" href="#">Discover all of our services</a>
         </div>
     </div>  <!-- Something new here -->
             </div>
@@ -93,20 +90,20 @@
     <h3 class="h3 white  text-center text-title-intro  ">
     Kvalitet og pris er altid det vigtigste 
    </h3>
-    <div class="row button-row justify-content-between text-center mt-5 each-scroll-pop trigger-test-2 ">
-      <div class="col-12  col-md-3 ">
+    <div class="row intro-row justify-content-between text-center mt-5 each-scroll-pop trigger-test-2 ">
+      <div class="col-4 col-sm-3 col-md-3 ">
                     <span style="font-size: 2.8em; color: #ffffff;  "> <i class="fas fa-toolbox "></i> </span>
                    <div class="icons-text-intro" style="color:#ffffff;">
                    <p><?php the_field("about_text_1")?></p>
                    </div>
       </div>
-      <div class="col-12  col-md-3 each-scroll-pop ">
+      <div class="col-4 col-sm-3 col-md-3 each-scroll-pop ">
       <span style="font-size: 2.8em; color: #ffffff;  "> <i class="fas fa-hammer"></i> </span>
                    <div class="icons-text-intro" style="color:#ffffff;">
                    <p><?php the_field("about_text_2")?></p>
                    </div>
       </div>
-      <div class="col-12  col-md-3 each-scroll-pop  ">
+      <div class="col-4 col-sm-3 col-md-3 each-scroll-pop  ">
       <span style="font-size: 2.8em; color: #ffffff;  "> <i class="fas fa-truck-moving"></i> </span>
                    <div class="icons-text-intro" style="color:#ffffff;">
                    <p><?php the_field("about_text_3")?></p>
@@ -162,7 +159,7 @@
             <div class="col-12 col-md-6 d-flex align-items-center block-padding  ">
                 <div class="contact-wrapper ">
                     <div class="contact-text">
-                        <h2>Hvor man kan finde os ?</h2>
+                        <h2>Where to find us</h2>
                     </div>
                     <div class="contact-paragraph">
                   <p >
@@ -170,10 +167,10 @@
                     <?php the_field("location_info")?>
                   </p>
                     </div>
-                   
-               <div class="locationBtn mt-4 d-flex p-3">
-                <a class="effect effect-1" href="<?php echo get_permalink( get_page_by_path( 'kontakt' ) );?>" title="kontakt">kontakt os</a>
-                </div>
+                    <button class="locationBtn p-md-4 mt-4">
+               
+                <a class="effect effect-1" href="#" title="kontakt os">kontakt os</a>
+            </button>
                 </div>
             </div>
 

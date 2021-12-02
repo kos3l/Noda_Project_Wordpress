@@ -1,0 +1,143 @@
+/*
+Theme name: Noda
+Author: Karolina Kosinska & Tomas Simko 
+Description: A theme created for Noda company
+Version: 1
+
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700&display=swap");
+
+:root {
+  --primary: #333399;
+  --jet-black: #2d2c2f;
+  --secondary: #939597;
+  /* 
+  secondary : #2D2C2F BLACK
+  grey: 939597 GREY ONE 
+  primary : #333399 NAVY
+
+*/
+}
+
+html,body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif ;
+  height: 100%; 
+}
+
+/* General nice paddings */
+
+.block-padding{
+    padding: 0 25px;
+    margin-top: 2em;
+  }
+
+/* Button style */ 
+  #scroll_top_btn {
+    background-color: var(--primary);
+    bottom: 0;
+    display: none;
+    height: 35px;
+    position: fixed;
+    text-align: center;
+    width: 48px;
+    opacity: .9;
+    z-index: 100000;
+    transition: all .2s ease-in-out 0s;
+    border-radius: 4px 4px 0 0;
+    color:white;
+    right:75px;
+    border: none;
+    font-size:1.5rem;
+  }
+
+  #scroll_top_btn::before{
+      line-height: 35px;
+      font-family: icomoon;
+      -webkit-font-smoothing: antialiased;
+      font-size: 22px;
+      color: #fff;
+  }
+ 
+
+  
+  #scroll_top_btn:hover {
+    background-color: #222221;
+  }
+
+
+
+  .effect {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    width: 180px;
+    border-radius: 2%;
+    overflow: hidden;
+  }
+  
+  /* effect-1 styles */
+  
+  .effect.effect-1 {
+    transition: all 0.2s linear 0s;
+ }
+  .effect.effect-1:before {
+    content: "\f178";
+    font-family: FontAwesome;
+    font-size: 20px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 0;
+    opacity: 0;
+   height: 100%; 
+    width: 20px;
+    transition: all 0.2s linear 0s;
+ }
+  .effect.effect-1:hover {
+    text-indent: -20px;
+    color:white
+ }
+  .effect.effect-1:hover:before {
+    opacity: 1;
+    text-indent: 0px;
+    color: white;
+ }
+ 
+ 
+  /* Location Btn */
+
+  .locationBtn {
+    background-color: #333399;
+    width: 18rem;
+    color: #f8f8f9;
+    border: 2px solid #f8f8f9;
+    letter-spacing: 0.1rem;
+    max-height: 80%;
+  }
+
+  .contactBtn  {
+    background-color: #333399;
+    color: #f8f8f9 ;
+    border: 0;
+    width: 220px;
+    letter-spacing: 0.1rem;
+    max-height: 100%;
+    just
+  }
+
+  
+
+
+
+    
+
+

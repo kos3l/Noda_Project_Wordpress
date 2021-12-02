@@ -171,9 +171,9 @@
                   </p>
                     </div>
                    
-               <div class="locationBtn mt-4 d-flex p-3">
+               <div class="locationBtn mt-4 d-flex p-3"></div>
                 <a class="effect effect-1" href="<?php echo get_permalink( get_page_by_path( 'kontakt' ) );?>" title="kontakt">kontakt os</a>
-                </div>
+           
                 </div>
             </div>
 

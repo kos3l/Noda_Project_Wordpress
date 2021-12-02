@@ -8,9 +8,6 @@
   min-height: 100%;
   background: cover;
   opacity: 80%;
-  object-fit: cover;
-  height:auto;
-  width: 100%;
 }
 
 .introduction-section {

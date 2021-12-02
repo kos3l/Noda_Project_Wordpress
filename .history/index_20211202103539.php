@@ -170,10 +170,10 @@
                     <?php the_field("location_info")?>
                   </p>
                     </div>
-                   
-               <div class="locationBtn mt-4 d-flex p-3">
-                <a class="effect effect-1" href="<?php echo get_permalink( get_page_by_path( 'kontakt' ) );?>" title="kontakt">kontakt os</a>
-                </div>
+                    <button class="locationBtn mt-4 d-flex p-3">
+               
+                <a class="effect effect-1" href="<?php echo get_permalink( get_page_by_path( 'contact' ) );?>" title="kontakt">kontakt os</a>
+            </button>
                 </div>
             </div>
 
