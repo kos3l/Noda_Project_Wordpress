@@ -3,7 +3,7 @@
                 <?php while(have_posts()): the_post() ?>
                <section class="hero-section-2 position-relative text-center">
                <video autoplay muted loop id="myVideo">
-  <source src="<?php the_field("home_video");?>" type="video/mp4">
+  <source src="<?php the_field("video_forside");?>" type="video/mp4">
 </video>
 
 </section>
@@ -31,10 +31,8 @@
                <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-md-end">
                <div class="button-wrapper">
                    <!--       <button class="contactBtn d-flex p-3"> -->
-                       <div class="contactBtn d-flex p-3">
-                       <a class="effect effect-1" href="<?php echo get_permalink( get_page_by_path( 'kontakt' ) );?>" title="kontakt os">kontakt os</a>
-
-                       </div>
+                       <div class="contactBtn d-flex p-3"></div>
+                            <a class="effect effect-1" href="<?php echo get_permalink( get_page_by_path( 'contact' ) );?>" title="kontakt os">kontakt os</a>
                         <!-- </button> -->
                        
                      </div>
@@ -170,10 +168,10 @@
                     <?php the_field("location_info")?>
                   </p>
                     </div>
-                   
-               <div class="locationBtn mt-4 d-flex p-3">
-                <a class="effect effect-1" href="<?php echo get_permalink( get_page_by_path( 'kontakt' ) );?>" title="kontakt">kontakt os</a>
-                </div>
+                    <button class="locationBtn mt-4 d-flex p-3">
+               
+                <a class="effect effect-1" href="<?php echo get_permalink( get_page_by_path( 'contact' ) );?>" title="kontakt">kontakt os</a>
+            </button>
                 </div>
             </div>
 

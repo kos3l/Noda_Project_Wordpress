@@ -3,7 +3,7 @@
                 <?php while(have_posts()): the_post() ?>
                <section class="hero-section-2 position-relative text-center">
                <video autoplay muted loop id="myVideo">
-  <source src="<?php the_field("home_video");?>" type="video/mp4">
+  <source src="<?php the_field("video_forside");?>" type="video/mp4">
 </video>
 
 </section>
@@ -30,12 +30,9 @@
                </div>
                <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-md-end">
                <div class="button-wrapper">
-                   <!--       <button class="contactBtn d-flex p-3"> -->
-                       <div class="contactBtn d-flex p-3">
-                       <a class="effect effect-1" href="<?php echo get_permalink( get_page_by_path( 'kontakt' ) );?>" title="kontakt os">kontakt os</a>
-
-                       </div>
-                        <!-- </button> -->
+                         <button class="contactBtn d-flex p-2">
+                            <a class="effect effect-1" href="<?php echo get_permalink( get_page_by_path( 'contact' ) );?>" title="kontakt os">kontakt os</a>
+                        </button>
                        
                      </div>
                </div>
@@ -69,7 +66,7 @@
                 </div>
     
         <div class="col  pt-5 ">
-            <a class=" serviceLink" href="<?php echo get_permalink( get_page_by_path( 'services' ) );?>" title="services">Discover all of our services</a>
+            <a class=" serviceLink" href="#">Discover all of our services</a>
         </div>
     </div>  <!-- Something new here -->
             </div>
@@ -164,16 +161,16 @@
                     <div class="contact-text">
                         <h2>Hvor man kan finde os ?</h2>
                     </div>
-                    <div class="contact-paragraph">
+                    <div class="contact-paragraph mt-3 mb-3">
                   <p >
                        
                     <?php the_field("location_info")?>
                   </p>
                     </div>
-                   
-               <div class="locationBtn mt-4 d-flex p-3">
-                <a class="effect effect-1" href="<?php echo get_permalink( get_page_by_path( 'kontakt' ) );?>" title="kontakt">kontakt os</a>
-                </div>
+                    <button class="locationBtn mt-4">
+               
+                <a class="effect effect-1" href="<?php echo get_permalink( get_page_by_path( 'contact' ) );?>" title="kontakt os">kontakt os</a>
+            </button>
                 </div>
             </div>
 

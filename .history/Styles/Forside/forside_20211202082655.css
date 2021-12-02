@@ -8,9 +8,6 @@
   min-height: 100%;
   background: cover;
   opacity: 80%;
-  object-fit: cover;
-  height:auto;
-  width: 100%;
 }
 
 .introduction-section {
@@ -32,9 +29,6 @@
 
 .main-title h2 {
   color: white;
-}
-.main-title-description p{
-  font-weight: bold;
 }
 .picture-wrapper-main {
   max-width: 450px;
@@ -83,7 +77,6 @@
 .phone-number h2 {
   color: var(--primary);
   font-weight: bold;
-  font-size:1.4rem
 }
 
 .icons-text-intro {
@@ -120,8 +113,5 @@
     height: 80vh;
     background-size: cover;
   }
-  .button-row{
-    flex-direction: column;
-    align-items: center;
-  }
+  .button-row
 }

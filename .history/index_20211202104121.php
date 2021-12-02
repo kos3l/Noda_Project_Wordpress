@@ -3,7 +3,7 @@
                 <?php while(have_posts()): the_post() ?>
                <section class="hero-section-2 position-relative text-center">
                <video autoplay muted loop id="myVideo">
-  <source src="<?php the_field("home_video");?>" type="video/mp4">
+  <source src="<?php the_field("video_forside");?>" type="video/mp4">
 </video>
 
 </section>

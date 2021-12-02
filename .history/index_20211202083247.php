@@ -3,7 +3,7 @@
                 <?php while(have_posts()): the_post() ?>
                <section class="hero-section-2 position-relative text-center">
                <video autoplay muted loop id="myVideo">
-  <source src="<?php the_field("home_video");?>" type="video/mp4">
+  <source src="<?php the_field("video_forside");?>" type="video/mp4">
 </video>
 
 </section>
@@ -15,7 +15,7 @@
                  <h1><?php the_field("main_title") ?></h1>
              </div>
              <div class="main-title-description ">
-                 <p ><?php the_field("iorefaldende_titel") ?> </p>
+                 <p><?php the_field("iorefaldende_titel") ?> </p>
              </div>
          </div>
          <div class="col-12 col-md-6 col-lg-6">
@@ -28,14 +28,11 @@
                        <h2><?php the_field("phone_number") ?> </h2>
                    </div>
                </div>
-               <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-md-end">
+               <div class="col-12 col-md-6 col-lg-6 d-flex just">
                <div class="button-wrapper">
-                   <!--       <button class="contactBtn d-flex p-3"> -->
-                       <div class="contactBtn d-flex p-3">
-                       <a class="effect effect-1" href="<?php echo get_permalink( get_page_by_path( 'kontakt' ) );?>" title="kontakt os">kontakt os</a>
-
-                       </div>
-                        <!-- </button> -->
+                         <button class="contactBtn p-2">
+                            <a class="effect effect-1" href="<?php echo get_permalink( get_page_by_path( 'contact' ) );?>" title="kontakt os">kontakt os</a>
+                        </button>
                        
                      </div>
                </div>
@@ -69,7 +66,7 @@
                 </div>
     
         <div class="col  pt-5 ">
-            <a class=" serviceLink" href="<?php echo get_permalink( get_page_by_path( 'services' ) );?>" title="services">Discover all of our services</a>
+            <a class=" serviceLink" href="#">Discover all of our services</a>
         </div>
     </div>  <!-- Something new here -->
             </div>
@@ -162,7 +159,7 @@
             <div class="col-12 col-md-6 d-flex align-items-center block-padding  ">
                 <div class="contact-wrapper ">
                     <div class="contact-text">
-                        <h2>Hvor man kan finde os ?</h2>
+                        <h2>Where to find us</h2>
                     </div>
                     <div class="contact-paragraph">
                   <p >
@@ -170,10 +167,10 @@
                     <?php the_field("location_info")?>
                   </p>
                     </div>
-                   
-               <div class="locationBtn mt-4 d-flex p-3">
-                <a class="effect effect-1" href="<?php echo get_permalink( get_page_by_path( 'kontakt' ) );?>" title="kontakt">kontakt os</a>
-                </div>
+                    <button class="locationBtn p-md-4 mt-4">
+               
+                <a class="effect effect-1" href="#" title="kontakt os">kontakt os</a>
+            </button>
                 </div>
             </div>
 
