@@ -12,8 +12,8 @@
 
 
 <nav class="navbar navbar-expand-lg  navbar-dark bg-color fixed-top">
-  <div class="container px-0 px-md-3">
-    <div class="toggleCont ps-4 ps-lg-0 pt-2 pt-md-0">
+  <div class="container mobilefix">
+    <div class="toggleCont ">
       <a class="navbar-brand" href="<?php echo get_home_url(); ?>">
         Noda<br>Byg ApS  <!-- Have to do something like image  -->
         <?php

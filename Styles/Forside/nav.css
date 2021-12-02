@@ -143,5 +143,9 @@
   }
   .toggleCont a {
     width: auto;
+    padding-left: 1rem;
+  }
+  .mobilefix {
+    padding: 0;
   }
 }
