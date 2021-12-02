@@ -14,7 +14,7 @@ Template name: About
 </section>
 
 <div class="container">
-    <div class="row  pt-5 block-padding">
+    <div class="row mob pt-5 block-padding">
         <div class="col-12 col-md-6">
             <div class="page-title">
                 <h1><?php the_title(); ?></h1>
@@ -34,7 +34,7 @@ Template name: About
  </div>
 
 <div class="container mt-5 ">
-    <div class="row block-padding">
+    <div class="row mob block-padding">
         <div class="col-12 col-md-6 col-lg-6 ">
             <div class="om-us-wrapper">
                 <div class="om-us-title">
@@ -44,7 +44,7 @@ Template name: About
                 <p><?php the_field("primaer_beskrivelse"); ?></p>
                 </div>
             </div>
-            <div class="om-us-second-wrapper  mascot-trigger  ">
+            <div class="om-us-second-wrapper  mascot-trigger mt-5 mt-md-0 ">
                 <div class="om-os-title">
                 <h2><?php the_field("sekundær_titel"); ?></h2>
                 </div>
@@ -65,7 +65,7 @@ Template name: About
 
 
 <div class="container  mb-5">
-    <div class="row block-padding ">
+    <div class="row mob block-padding ">
         <div class="col-12 col-lg-6 col-md-6 d-flex align-items-center">
 
         <div class="om-os-image-wrapper mt-5 first-owner-pic-slide ">

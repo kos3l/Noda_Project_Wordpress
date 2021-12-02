@@ -20,7 +20,7 @@ Template name: Kontakt
 
 
     <div class="container  mb-5 ">
-    <div class="row-wrapper pt-3 pb-3 block-padding">
+    <div class="row-wrapper pt-3 pb-3 mob block-padding">
         <div class="row " >
             
             <div class="col-12 col-md-6  pt-3 ">

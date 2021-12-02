@@ -97,7 +97,22 @@
   transition: height 0.5s ease;
 }
 /* Media query */
-
+@media (max-width: 800px) {
+  .toggleCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+  }
+  .colFix {
+    flex-direction: column;
+    width: 100vw;
+    padding: 0;
+  }
+  .nav-link {
+    text-align: center;
+  }
+}
 @media (max-width: 575.98px) {
   .collapsing {
     position: relative;

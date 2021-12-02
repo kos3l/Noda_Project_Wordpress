@@ -135,4 +135,7 @@ body {
     padding: 0 1rem;
     margin-top: 2em;
   }
+  .mob {
+    padding: 0;
+  }
 }

@@ -159,7 +159,7 @@
 
    
         <div class="row main-body location ">
-            <div class="col-12 col-md-6 d-flex align-items-center block-padding  ">
+            <div class="col-12 col-md-6 d-flex align-items-center block-padding mob ">
                 <div class="contact-wrapper ">
                     <div class="contact-text">
                         <h2>Hvor man kan finde os ?</h2>
