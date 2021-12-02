@@ -12,8 +12,8 @@
 
 
 <nav class="navbar navbar-expand-lg  navbar-dark bg-color fixed-top">
-  <div class="container p-0">
-    <div class="toggleCont px-3">
+  <div class="container px-0 px-md-3">
+    <div class="toggleCont ps-4 ps-lg-0 pt-2 pt-lg-0">
       <a class="navbar-brand" href="<?php echo get_home_url(); ?>">
         Noda<br>Byg ApS  <!-- Have to do something like image  -->
         <?php
@@ -28,7 +28,7 @@
         <img src="<?php the_field("home_gallery_1");?>" width="60px" alt="">
         </div>
       </a>
-      <button class="navbar-toggler pe-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
     </div>
